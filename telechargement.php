@@ -23,22 +23,16 @@
 					        </tr>
 					    <tbody>
 					    	<tr>
-					            <td>Slim_v0.32.min (Version minifié)</td>
-					            <td>14 Ko</td>
-					            <td>12 Juin 2014</td>
-					            <td><a class="btn-icon icon-download">Télécharger</a></td>
-					        </tr>
-					        <tr>
-					            <td>Slim_v0.32 (.css)</td>
+					            <td>Slim_v0.32 + (Version minifié)</td>
 					            <td>36 Ko</td>
-					            <td>12 Juin 2014</td>
-					            <td><a class="btn-icon icon-download">Télécharger</a></td>
+					            <td>20 Juin 2014</td>
+					            <td><a href="repos/slim.zip" class="btn-icon icon-download">Télécharger</a></td>
 					        </tr>
 					        <tr>
 					            <td>Slim_v0.32 + (pack font d'icones)</td>
 					            <td>510 Ko</td>
-					            <td>12 Juin 2014</td>
-					            <td><a class="btn-icon icon-download">Télécharger</a></td>
+					            <td>20 Juin 2014</td>
+					            <td><a href="repos/slim+icons.zip" class="btn-icon icon-download">Télécharger</a></td>
 					        </tr>
 					    </tbody>
 					</table>

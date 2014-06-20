@@ -26,7 +26,7 @@ include_once ("config.php");
 		<link href="code/prettify.css" rel="stylesheet" type="text/css" media="screen" />
 
 		<!-- Stylesheets -->
-		<link rel="stylesheet" href="css/font-icones.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/slim-icons.css" type="text/css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="css/slim.css" />
 		<!-- <link rel="stylesheet/less" type="text/css" href="css/slim.less" /> -->
 		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
