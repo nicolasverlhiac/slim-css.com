@@ -11,15 +11,15 @@ include_once ("config.php");
 
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-		<meta name="description" content="Slim HTML/CSS est un framework responsive, léger, et pret à l'emplois." />
+		<meta name="description" content="Slim HTML/CSS est un framework responsive, léger, et pret à l'emploi." />
 		<meta name="keywords" content="CSS, grid, grid system, Slim, HTML/CSS, fixed, layout, fluid, responsive, adaptive, design" />
 
 		<meta property="og:url" content="http://slim-css.com"/>
-		<meta property="og:title" content="Slim HTML/CSS | Framework CSS accélérateur de projet web"/> 
+		<meta property="og:title" content="Slim HTML/CSS | Framework CSS accélérateur de projets web"/> 
 		<meta property="og:type" content="website"/> 
 		<meta property="og:image" content="http://slim-css.com/img/cover-slim.png"/> 
 		<meta property="og:site_name" content="Slim HTML/CSS"/> 
-		<meta property="og:description" content="Slim HTML/CSS est un framework responsive, léger, et prêt à l'emplois."/>
+		<meta property="og:description" content="Slim HTML/CSS est un framework responsive, léger, et prêt à l'emploi."/>
 		<meta name="viewport" content="initial-scale=1,minimum-scale=1,width=device-width">
 
 		<!-- Stylesheets -->
