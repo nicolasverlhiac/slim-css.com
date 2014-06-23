@@ -2,12 +2,28 @@
 
 			<div class="cols-row">
 				<div class="col-100">
+					
+					<div class="cols-row">
+						<div class="col-60">
+							<p class="lead">Slim est née d'un besoin simple : Un Framework CSS qui serait très léger et modulable mais qui comporterait tous les outils nécessaires pour faire des sites web rapidement. 
+								À cela il fallait ajouter la gestion du <strong>responsive</strong>, l'<strong>interopérabilité</strong> entre les navigateurs récents et vieux. Le tout, facile à prendre en main.
+								Voilà comment le framework CSS Slim se retrouve maintenant entre vos mains. </p>
 
-					<h1 class="titre-taimay">A propos</h1>
+							<p class="lead">Slim est un projet vivant et Open Source, il évolue au fur et à mesure. Actuellement, il possède un certain nombre de fonctionnalités qui permettent de commencer un projet web stable. Mais il faut garder en tête que ce framework va s'améliorer jusqu'à sa version 1.0.</p>
+							<p class="lead">En utilisant Slim, vous ferez le web d'une autre manière.</p>
+						</div>
+						<div class="col-40 centered">
 
-					<h4 class="doc-taimay">Paragraphe mis en avant "lead"</h4>
-					<p class="lead">Eh ! a propos de devenir marteau, vous savez que chez moi ça peut aller assez loin. Parce que mettons, là on se pose, on analyse le truc, le crincrin ça fait des heures que ça dure, et en plus vous vous y mettez à plusieurs. Et bin moi, le machin, une fois que j'en ai fais des copeaux, je peux très bien mettre le feu au plumard, même au mobilier, ça m'fait pas peur! - Kaamelott</p>
-					<pre class="prettyprint">&lt;p class=&quot;lead&quot;&gt;Eh ! a propos de devenir marteau ... &lt;/p&gt;</pre>
+							<img src="img/logo-presentation-slim.png" alt="">
+						</div>
+					</div>
+
+					<div class="bloc-profil width-50">
+						<img src="img/nicolas-verlhiac-profil.png" alt="">
+						<h3>Nicolas Verlhiac</h3>
+						<h3 class="soustitre">Créateur & Webdesigner</h3>
+						<p>Je nourris l'idée qu'un jour, le web sera un lieu accessible à tous et répondra aux besoins de chacun. Nous avons tous notre rôle à jouer dans la construction de cet espace collectif.</p>
+					</div>
 
 				</div>
 			</div>
