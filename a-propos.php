@@ -18,11 +18,11 @@
 						</div>
 					</div>
 
-					<div class="bloc-profil width-50">
+					<div class="bloc-profil width-60">
 						<img src="img/nicolas-verlhiac-profil.png" alt="">
 						<h3>Nicolas Verlhiac</h3>
 						<h3 class="soustitre">Créateur & Webdesigner</h3>
-						<p>Je nourris l'idée qu'un jour, le web sera un lieu accessible à tous et répondra aux besoins de chacun. Nous avons tous notre rôle à jouer dans la construction de cet espace collectif.</p>
+						<p>Je nourris l'idée qu'un jour, le web sera un lieu accessible à tous et répondra aux besoins de chacun. Nous avons tous notre rôle à jouer dans la construction de cet espace collectif. - <a href="http://nicolasverlhiac.fr" target="_blank">website</a></p>
 					</div>
 
 				</div>
