@@ -45,7 +45,7 @@ include_once ("config.php");
 		<div class="container">
 
 			<div class="cols-row end">
-				<div class="col-30">
+				<div class="col-30 logo-mobil">
 					<a href="index.php">
 					<img src="img/logo-slim.png">
 					</a>
@@ -53,7 +53,7 @@ include_once ("config.php");
 
 				<div class="col-70">
 					<div class="cols-row">
-						<nav id="nav-principal" class="navbar full col-66">
+						<nav id="nav-principal" class="navbar full col-66 menu-top-full">
 							<ul>
 						        <li><a class="<?php if($f=='' || $f=='index.php' ) echo 'current';?>" href="index.php">Accueil</a></li>
 								<li><a class="<?php if($f=='a-propos.php' ) echo 'current'; ?>" href="a-propos.php">Présentation</a></li>
@@ -61,8 +61,8 @@ include_once ("config.php");
 								<li><a class="<?php if($f=='telechargement.php' ) echo 'current';?>" href="telechargement.php">Versions</a></li>
 							</ul>
 						</nav>
-						<div class="col-33 center">
-							<a class="btn-icon icon-download btn-dl" href="telechargement.php">Télécharger SLIM <small><?php echo $version; ?></small></a>
+						<div class="col-33 centered menu-top-none">
+							<a class="btn-icon icon-download btn-dl" href="telechargement.php">Télécharger SLIM</a>
 						</div>
 					</div>
 				</div>

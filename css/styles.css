@@ -128,16 +128,6 @@ h1.slider span{
   border: none;
 }
 
-.btn-dl{
-  margin: 10px 0 0 0;
-  float: right;
-}
-/*
-.btn-dl:before{
-  padding: 0 20px;
-  margin: 0 20px 0 0;
-}*/
-
 #logo-acc h1{
   font-size: 40px;
   margin: 30px 0 0 0;
@@ -267,4 +257,85 @@ h1.slider span{
   border-radius: 300px;
   margin-right: 20px;
   float: left;
+}
+
+
+/* Media queries!
+-------------------------------------------------------------------------------*/
+
+/* 960 Screens */
+@media only screen and (min-width: 960px) and (max-width: 1250px) {
+
+
+}
+
+
+/* menu */
+@media only screen and (min-width: 768px) and (max-width: 1179px) {
+  .menu-top-none {
+    display: none;
+  }
+  .cols-row .menu-top-full {
+    width: 100%;
+  }
+}
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+  header h2.soustitre {
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+  }
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+ .no-mobile {
+    display: none; 
+ }
+
+ #utilisation li:nth-child(2) {
+      border: none;
+  }
+
+  .btn-dl{
+    margin: 20px 0 0 0;
+  }
+
+  h1.slider {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .logo-mobil {
+    text-align: center;
+  }
+
+
+}
+
+/* Mobile Landscape */
+@media only screen and (min-width: 481px) and (max-width: 767px) { 
+
+}
+
+/* Mobile Portrait */
+@media only screen and (max-width: 480px) {
+  
+  .btn-acc{
+    margin: 0 0 20px 0;
+  }
+
+  #utilisation li:nth-child(2) {
+      border: none;
+  }
+
+  .btn-icon {
+
+
+  }
+  
 }

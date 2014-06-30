@@ -1158,7 +1158,7 @@ button:focus {
   height: 40px;
   display: block;
   -webkit-appearance: none;
-  padding: 8px 12px;
+  padding: 22px 12px;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
@@ -1192,15 +1192,12 @@ input[type="submit"]{
 
 .input-success,
 .group-input-success input {
-  border-left: 5px solid #27ae60;
   border-color: #27ae60;
-  border-radius: 0 2px 2px 0;
   color: #27ae60;
 }
 
 .input-problem,
 .group-input-problem input {
-  border-left: 5px solid #f39c12;
   border-color: #f39c12;
   border-radius: 0 2px 2px 0;
   color: #f39c12;
@@ -1208,7 +1205,6 @@ input[type="submit"]{
 
 .input-error,
 .group-input-error input {
-  border-left: 5px solid #e74c3c;
   border-color: #e74c3c;
   border-radius: 0 2px 2px 0;
   color: #e74c3c;
@@ -1231,20 +1227,19 @@ input[type="submit"]{
 }
 
 .input-icon input{
-  padding-left: 55px;
-
+  padding-left: 60px;
 }
 
 .input-icon span {
   display: block;
-  height: 40px;
-  line-height: 40px;
+  height: 46px;
+  line-height: 46px;
   border-radius: 2px;
   position: absolute;
   left: 0;
   text-align: center;
   top: 32px;
-  width: 40px;
+  width: 46px;
   z-index: 3;
   background: #1abc9c;
   color: #fff;
