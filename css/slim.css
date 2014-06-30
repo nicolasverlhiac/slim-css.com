@@ -1651,6 +1651,9 @@ img {
 .end {
   margin-bottom: 0 !important;
 }
+.begin {
+  margin-top: 0 !important;
+}
 .normal {
   font-weight: normal;
 }
@@ -1696,6 +1699,10 @@ img {
   color: #2980b9;
 }
 
+.info-box p{
+  padding-left: 75px;
+}
+
 .danger-box {
   background: #FCF8F2;
   color: #e67e22;
@@ -1720,6 +1727,10 @@ img {
   color: #e67e22;
 }
 
+.danger-box p{
+  padding-left: 75px;
+}
+
 .error-box {
   background: #FDF7F7;
   color: #e74c3c;
@@ -1738,8 +1749,13 @@ img {
   padding: 28px 20px 0 10px;
   float: left;
 }
+
 .error-box a{
   font-weight: 900;
   text-decoration: underline;
   color: #e74c3c;
+}
+
+.error-box p{
+  padding-left: 75px;
 }

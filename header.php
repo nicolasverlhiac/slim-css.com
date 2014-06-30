@@ -42,6 +42,10 @@ include_once ("config.php");
 
 	<body onload="prettyPrint()">
 
+		<div class="danger-box begin mobile">
+			<p>Certains style ne pourront être convenablement appréciés sous mobile.</p>
+		</div>
+
 		<div class="container">
 
 			<div class="cols-row end">

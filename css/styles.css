@@ -266,7 +266,6 @@ h1.slider span{
 /* 960 Screens */
 @media only screen and (min-width: 960px) and (max-width: 1250px) {
 
-
 }
 
 
@@ -289,12 +288,23 @@ h1.slider span{
     margin: 10px 0 0 10px;
   }
 
+
 }
 
+/* All (devices and browser) after mobile */
+@media only screen and (min-width: 767px) {
+  .mobile {
+    display: none; 
+ }
+}
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
  .no-mobile {
     display: none; 
+ }
+
+ .mobile {
+    display: block; 
  }
 
  #utilisation li:nth-child(2) {
