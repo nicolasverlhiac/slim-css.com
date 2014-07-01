@@ -41,7 +41,7 @@
 					</div>
 					<div class="cols-row">
 						<div class="col-100">
-							<h2 class="soustitre">Slim Starter Pack (Pour commencer rapidement vos projet)</h2>
+							<h2 class="soustitre">Slim Starter Pack (Pour commencer rapidement vos projet) - Bientôt disponible</h2>
 							<table class="width-100">
 							    <thead>
 							        <tr>
@@ -54,8 +54,8 @@
 							        <tr>
 							            <td>Slim_v0.33-SP</td>
 							            <td>600 Ko</td>
-							            <td>30 Juin 2014</td>
-							            <td><a class="btn-icon icon-download">Télécharger</a></td>
+							            <td>-</td>
+							            <td><a class="bg-silver btn-icon icon-download">Télécharger</a></td>
 							        </tr>
 							    </tbody>
 							</table>
