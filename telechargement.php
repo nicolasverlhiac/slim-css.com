@@ -41,7 +41,7 @@
 					</div>
 					<div class="cols-row">
 						<div class="col-100">
-							<h2 class="soustitre">Slim Starter Pack (Pour commencer rapidement vos projet) - Bientôt disponible</h2>
+							<h2 class="soustitre">Slim Starter Pack (Pour commencer rapidement vos projet)</h2>
 							<table class="width-100">
 							    <thead>
 							        <tr>
@@ -53,9 +53,9 @@
 							    <tbody>
 							        <tr>
 							            <td>Slim_v0.33-SP</td>
-							            <td>600 Ko</td>
-							            <td>-</td>
-							            <td><a class="bg-silver btn-icon icon-download">Télécharger</a></td>
+							            <td>620 Ko</td>
+							            <td>5/07/1014</td>
+							            <td><a href="repos/slim-SP.zip" class="btn-icon icon-download">Télécharger</a></td>
 							        </tr>
 							    </tbody>
 							</table>
@@ -67,6 +67,7 @@
 		</div>
 
 		<footer>
+			<?php require_once "footer.php" ?>
 		</footer>
 
 	</body>

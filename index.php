@@ -93,6 +93,7 @@ include_once ("config.php");
 		</div>
 
 		<footer>
+			<?php require_once "footer.php" ?>
 		</footer>
 
 	</body>
