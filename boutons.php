@@ -20,14 +20,41 @@
 &lt;a class="btn moyen"&gt;Moyen&lt;/a&gt;
 &lt;a class="btn petit"&gt;Petit&lt;/a&gt;</pre>
 
+					<h4 class="doc-taimay">Boutons light</h4>
+					<p>Faites de bouton avec un affichage léger grâce à la class <code>.btn-lg</code>.</p>
+					<a class="btn-lg">Bouton fin</a>
+					<pre class="prettyprint">
+&lt;a class="btn-lg"&gt;Bouton fin&lt;/a&gt;
+</pre>
+					
+					<h4 class="doc-taimay">Angles des boutons</h4>
+					<p>Vous pouvez gérez les angles de vos boutons avec les class d'aide <code>.btn-round</code> ou <code>.btn-square</code></p>
+					
+					<a class="btn btn-square">Bouton Carré</a>
+					<a class="btn btn-round">Bouton arrondi</a>
+					<br><br>
+					<a class="btn-lg btn-square">Bouton Carré</a>
+					<a class="btn-lg btn-round">Bouton arrondi</a>
+					<pre class="prettyprint">
+&lt;a class="btn btn-square"&gt;Bouton Carré&lt;/a&gt;
+&lt;a class="btn btn-round"&gt;Bouton arrondi&lt;/a&gt;
+
+&lt;a class="btn-lg btn-square"&gt;Bouton Carré&lt;/a&gt;
+&lt;a class="btn-lg btn-round"&gt;Bouton arrondi&lt;/a&gt;
+</pre>
+
 					<h4 class="doc-taimay">Boutons avec icone</h4>
 					<p>Ajouter une icone au bouton avec <code>.btn-icon</code> et l'icone avec la class <code>.icon-xxxx</code> (<a href="icones.php">liste des icones disponibles</a>).</p>
 					<a class="btn-icon icon-download">Télécharger</a>
-					<pre class="prettyprint">&lt;a class="btn-icon icon-download"&gt;Télécharger&lt;/a&gt;</pre>
+					<br><br>
+					<a class="btn-icon icon-user-add">Ajouter un utilisateur</a>
+					<pre class="prettyprint">
+&lt;a class="btn-icon icon-download"&gt;Télécharger&lt;/a&gt;
+&lt;a class="btn-icon icon-user-add"&gt;Ajouter un utilisateur&lt;/a&gt;</pre>
 
 					
 					<h4 class="doc-taimay">Style de boutons</h4>
-					<p>Les boutons peuvent êtres décliné en plusieurs couleur. Pour effectuer le changement, il suffit d'appliquer la class <code>btn-xxx</code> en fonction de la couleur.</p>
+					<p>Les boutons peuvent êtres décliné en plusieurs couleur. Pour effectuer le changement, il suffit d'appliquer la class <code>btn-xxx</code> en fonction de la couleur. Ces styles s'appliquent à tous les style de boutons à part les boutons lights.</p>
 					<div class="cols-row">
 						<div class="col-100">
 							<a class="btn btn-green">.btn-green</a>
