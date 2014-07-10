@@ -55,7 +55,7 @@
 							            <td>Slim_v0.33-SP</td>
 							            <td>620 Ko</td>
 							            <td>5/07/1014</td>
-							            <td><a href="repos/slim-SP.zip" class="btn-icon icon-download">Télécharger</a></td>
+							            <td><a href="https://github.com/nicolasverlhiac/Slim-CSS-Starter-Pack/archive/master.zip" class="btn-icon icon-download">Télécharger</a></td>
 							        </tr>
 							    </tbody>
 							</table>
