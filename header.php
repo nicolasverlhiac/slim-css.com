@@ -7,15 +7,15 @@ include_once ("config.php");
 
 	<head>
 		<meta charset="utf-8" />
-		<title>Slim HTML/CSS</title>
+		<title><?php echo $pageInfos[$f]['titre']; ?></title>
 
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
 		<meta name="description" content="Slim HTML/CSS est un framework responsive, léger, et pret à l'emploi." />
 		<meta name="keywords" content="CSS, grid, grid system, Slim, HTML/CSS, fixed, layout, fluid, responsive, adaptive, design" />
 
-		<meta property="og:url" content="http://slim-css.com"/>
-		<meta property="og:title" content="Slim HTML/CSS | Framework CSS accélérateur de projets web"/> 
+		<meta property="og:url" content="http://slim-css.com/<?php echo $f; ?>"/>
+		<meta property="og:title" content="<?php echo $pageInfos[$f]['titre']; ?>"/> 
 		<meta property="og:type" content="website"/> 
 		<meta property="og:image" content="http://slim-css.com/img/cover-slim.png"/> 
 		<meta property="og:site_name" content="Slim HTML/CSS"/> 

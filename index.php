@@ -62,7 +62,7 @@ include_once ("config.php");
 			<div class="cols-row">
 				<div class="col-70 col-centre centered">
 					<h2 class="upper">Simple d'utilisation</h2>
-					<h3 class="soustitre">Si vous developper vous même vos sites internet, l'utilisation de ce framework est trés simple. Une structure déjà prete avec un CSS neutre.</h3>
+					<h3 class="soustitre">Si vous developpez vous même vos sites internet, l'utilisation de ce framework est trés simple. Une structure déjà prête avec un CSS neutre.</h3>
 
 					<div id="utilisation">
 						<ol>
@@ -81,7 +81,7 @@ include_once ("config.php");
 					<div class="cols-row">
 						<div class="col-70">
 							<h2 class="soustitre">Utilisez la documentation pour vous aider</h2>
-							<p class="lead">Apprenez à vous servir de Slim grace à une documenation accessible, en français et très complète. De nombreux exemple et cas de figure y sont abordés.</p>
+							<p class="lead">Apprenez à vous servir de Slim grâce à une documenation accessible, en français et très complète. De nombreux exemples et cas de figures y sont abordés.</p>
 						</div>
 						<div class="col-30 centered">
 							<a class="btn" style="margin-top:50px;" href="typographie.php">Documentation</a>

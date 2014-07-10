@@ -10,7 +10,7 @@
 
 					<h1 class="titre-taimay">Boutons</h1>
 
-					<h4 class="doc-taimay">Boutons simple</h4>
+					<h4 class="doc-taimay">Boutons simples</h4>
 					<p>Les boutons d'action sont des liens <code>a</code> avec la class <code>btn</code></p>
 					<a class="btn">Normal</a>
 					<a class="btn moyen">Moyen</a>
