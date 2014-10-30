@@ -21,7 +21,7 @@
 						</ul>
 					</nav>
 					<pre class="prettyprint">
-&lt;nav class="navabr"&gt;	
+&lt;nav class="navbar"&gt;	
 	&lt;ul&gt;
 		&lt;li&gt;&lt;a href="#"&gt;Cuisine&lt;/a&gt;&lt;/li&gt;
 		&lt;li class="current"&gt;&lt;a href="#"&gt;Cakes&lt;/a&gt;&lt;/li&gt;
@@ -42,7 +42,7 @@
 						</ul>
 					</nav>
 					<pre class="prettyprint">
-&lt;nav class="navabr full"&gt;	
+&lt;nav class="navbar full"&gt;	
 	&lt;ul&gt;
 		&lt;li&gt;&lt;a href="#"&gt;Cuisine&lt;/a&gt;&lt;/li&gt;
 		&lt;li class="current"&gt;&lt;a href="#"&gt;Cakes&lt;/a&gt;&lt;/li&gt;
@@ -73,7 +73,7 @@
 						</div>
 					</div>
 					<pre class="prettyprint">
-&lt;nav class="navabr navbar-left"&gt;	
+&lt;nav class="navbar navbar-left"&gt;	
 	&lt;ul&gt;
 		&lt;li&gt;&lt;a href="#"&gt;Cuisine&lt;/a&gt;&lt;/li&gt;
 		&lt;li class="current"&gt;&lt;a href="#"&gt;Cakes&lt;/a&gt;&lt;/li&gt;
@@ -82,7 +82,7 @@
 		&lt;li&gt;&lt;a href="#"&gt;À propos&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/nav&gt;
-&lt;nav class="navabr navbar-right"&gt;	
+&lt;nav class="navbar navbar-right"&gt;	
 	&lt;ul&gt;
 		&lt;li&gt;&lt;a href="#"&gt;Livres de cuisine&lt;/a&gt;&lt;/li&gt;
 		&lt;li&gt;&lt;a href="#"&gt;Recettes&lt;/a&gt;&lt;/li&gt;

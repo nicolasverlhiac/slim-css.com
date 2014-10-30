@@ -21,10 +21,17 @@
 &lt;a class="btn petit"&gt;Petit&lt;/a&gt;</pre>
 
 					<h4 class="doc-taimay">Boutons light</h4>
-					<p>Faites de bouton avec un affichage léger grâce à la class <code>.btn-lg</code>.</p>
+					<p>Un bouton avec un affichage léger grâce à la class <code>.btn-lg</code>.</p>
 					<a class="btn-lg">Bouton fin</a>
 					<pre class="prettyprint">
 &lt;a class="btn-lg"&gt;Bouton fin&lt;/a&gt;
+</pre>
+
+					<h4 class="doc-taimay">Boutons light</h4>
+					<p>Ce bouton à un style 3D (visited/hover/active), utilisez la class <code>.btn-3d</code> pour utiliser ce style.</p>
+					<a class="btn-3d">Bouton 3D</a>
+					<pre class="prettyprint">
+&lt;a class="btn-3d"&gt;Bouton fin&lt;/a&gt;
 </pre>
 					
 					<h4 class="doc-taimay">Angles des boutons</h4>
@@ -35,6 +42,11 @@
 					<br><br>
 					<a class="btn-lg btn-square">Bouton Carré</a>
 					<a class="btn-lg btn-round">Bouton arrondi</a>
+
+					<br><br>
+					<a class="btn-3d btn-square">Bouton Carré</a>
+					<a class="btn-3d btn-round">Bouton arrondi</a>
+
 					<pre class="prettyprint">
 &lt;a class="btn btn-square"&gt;Bouton Carré&lt;/a&gt;
 &lt;a class="btn btn-round"&gt;Bouton arrondi&lt;/a&gt;
