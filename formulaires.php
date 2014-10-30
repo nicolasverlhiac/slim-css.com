@@ -308,7 +308,34 @@
 &lt;/form&gt;
 </pre>				
 					
-					
+
+					<h4 class="doc-taimay">Select</h4>
+					<p>La balise <code>&lt;select&gt;</code> est stylisé par le navigateur par défault. Slim le stylise sur les points autorisés par les navigateurs. Avec la class <code>.input</code> le select correspond parfaitement au style de Slim mais a un problème d'affichage sous Webkit (Safari et Chrome).</p>
+					<p><code>select</code> sans class mais stylisé</p>
+					<select name="" id="">
+						<option value="value1">Valeur 1</option> 
+						<option value="value2" selected>Valeur 2</option>
+						<option value="value3">Valeur 3</option>
+					</select>
+					<p><code>select</code> avec la class <code>.input</code> mais qui n'affiche pas la flèche sous Chrome et Safari.</p>
+					<select name="" id="" class="input">
+						<option value="value1">Valeur 1</option> 
+						<option value="value2" selected>Valeur 2</option>
+						<option value="value3">Valeur 3</option>
+					</select>
+					<pre class="prettyprint">
+&lt;select&gt;
+	&lt;option value="value1"&gt;Valeur 1&lt;/option&gt; 
+	&lt;option value="value2" selected&gt;Valeur 2&lt;/option&gt;
+	&lt;option value="value3"&gt;Valeur 3&lt;/option&gt;
+&lt;/select&gt;
+
+&lt;select class="input"&gt;
+	&lt;option value="value1"&gt;Valeur 1&lt;/option&gt; 
+	&lt;option value="value2" selected&gt;Valeur 2&lt;/option&gt;
+	&lt;option value="value3"&gt;Valeur 3&lt;/option&gt;
+&lt;/select&gt;</pre>	
+
 					<h4 class="doc-taimay">Type de <code>&lt;input&gt;</code></h4>
 					<p>Il existe de nombreux types de champs de saisie dans un formulaire. La valeur par défaut est text, mais plusieurs valeurs sont possibles : </p>
 

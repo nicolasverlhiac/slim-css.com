@@ -174,6 +174,9 @@ p.lead {
   margin-bottom: .75em;
 }
 
+p {
+  font-size: 1.1em;
+}
 
 /* Listes
    ========================================================================== */
@@ -1155,7 +1158,6 @@ button:focus {
   border: 1px solid #B4B7B8;
   margin: 0 0 20px 0;
   font-size: 14px;
-  height: 40px;
   display: block;
   -webkit-appearance: none;
   padding: 12px 12px;
@@ -1284,6 +1286,28 @@ input[type="radio"].input-error{
   border: none;
 }
 
+/* = Select
+-----------------------------------------------------------------------------*/
+
+select {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #555;
+    font-size: 14px;
+    height: 46px;
+    line-height: 1.42857;
+    padding: 12px 12px;
+    -webkit-border-radius: 2px;
+}
+select:focus {
+    border-color: #009DD6;
+    outline: 0 none;
+}
+select::-moz-placeholder {
+    color: #777;
+    opacity: 1;
+}
 /*
  * =/ Boutons
  * 
@@ -1365,6 +1389,46 @@ input[type="radio"].input-error{
   color: #fff;
 }
 
+/* = Boutons 3D
+-----------------------------------------------------------------------------*/
+
+
+.btn-3d{ 
+  background:#1ABC9C;
+  border:none;
+  border-radius:3px;
+  color:#fff;
+  padding: 15px 30px;
+  box-shadow:0px 4px 0px #018e5e;
+  display: inline-block;
+  vertical-align: top;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-3d:visited{
+  color:#fff
+  }
+
+.btn-3d:hover,
+.btn-3d:visited:hover{
+  color:#fff;
+  background:#16A085;
+  box-shadow:0px 2px 0px #005b3c
+}
+
+.btn-3d:active{
+  background:#16A085;
+  box-shadow:0px 0px 0px #005b3c
+}
+
 /* = Class d'aide pour les Boutons & Boutons light
 -----------------------------------------------------------------------------*/
 
@@ -1379,7 +1443,7 @@ input[type="radio"].input-error{
 /* = Boutons avec Icones
 -----------------------------------------------------------------------------*/
 
-/* On selectionne toutes les class de font icone, pour leur appliquer le style de .bnt-icon 
+/* On sélectionne toutes les class de font icone, pour leur appliquer le style de .bnt-icon 
 si elles sont contenu dedans. Afin d'eviter que le style de la font soit appliqué par défault */
 
 /*[class^="btn-icon icon-"], 
