@@ -136,6 +136,21 @@
 &lt;div class="turquoise"&gt;
 	Couleur du texte de ce div en turquoise
 &lt;/div&gt;</pre>
+
+					<h4 class="doc-taimay">Resize</h4>
+					<p>Maitrisez le redimensionnement d'un élément avec les classe d'aide <code>resize</code>. Ce type de class s'applique généralement au textarea, mais il est possible de gérer le redimentionement de n'importe quel élément.</p>
+					<p><i class="icon-info2"></i> La propriété <code>resize</code> ne s'applique pas aux éléments blocs dont la propriété overflow vaut <code>visible</code>.</p>
+					<pre class="prettyprint">&lt;textarea name="" id="" rows="4" class="input no-resize"&gt;&lt;/textarea&gt;</pre>
+					<code>.no-resize</code>
+					<p>L'élément ne propose pas de méthode de redimensionnement pour l'utilisateur.</p>
+					<code>.resize-both</code>
+					<p>L'élément affiche un dispositif permettant de redimensionner l'élément horizontalement et verticalement.</p>
+					<code>.resize-horizontal</code>
+					<p>L'élément affiche un dispositif qui permet de redimensionner l'élément horizontalement.</p>
+					<code>.resize-vertical</code>
+					<p>L'élément affiche un dispositif qui permet de redimensionner l'élément verticalement.</p>
+
+
 				</div>
 			</div>
 				
