@@ -6,6 +6,7 @@
 							<li class="<?php if($f=='' || $f=='navigation.php' ) echo 'current';?>"><a href="navigation.php">Navigation</a></li>
 							<li class="<?php if($f=='' || $f=='formulaires.php' ) echo 'current';?>"><a href="formulaires.php">Formulaires</a></li>
 							<li class="<?php if($f=='' || $f=='boutons.php' ) echo 'current';?>"><a href="boutons.php">Boutons</a></li>
+							<li class="<?php if($f=='' || $f=='notifications.php' ) echo 'current';?>"><a href="notifications.php">Notifications</a></li>
 							<li class="<?php if($f=='' || $f=='icones.php' ) echo 'current';?>"><a href="icones.php">Icones</a></li>
 							<li class="<?php if($f=='' || $f=='medias.php' ) echo 'current';?>"><a href="medias.php">Médias</a></li>
 							<li class="<?php if($f=='' || $f=='class-aide.php' ) echo 'current';?>"><a href="class-aide.php">Class d'aide</a></li>
