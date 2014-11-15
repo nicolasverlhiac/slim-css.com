@@ -22,7 +22,7 @@
 						<div class="bloc-profil col-60">
 							<img src="img/nicolas-verlhiac-profil.png" alt="">
 							<h3>Nicolas Verlhiac</h3>
-							<h3 class="soustitre">Créateur & Webdesigner</h3>
+							<h3 class="soustitre">Créateur de Slim & Webdesigner</h3>
 							<p>Je nourris l'idée qu'un jour, le web sera un lieu accessible à tous et répondra aux besoins de chacun. - <a href="http://nicolasverlhiac.fr" target="_blank">website</a></p>
 						</div>
 					</div>
