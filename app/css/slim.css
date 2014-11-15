@@ -4,7 +4,7 @@
 **************************************************************************************/
 
 /** 
- * Version : v0.35
+ * Version : v0.36
  * Last Update : 31/10/2014
  * Oficial website : http://slim-css.com
  * Documentation : http://slim-css.com/grille.php
@@ -1792,89 +1792,101 @@ img {
   text-transform: uppercase;
 }
 
-/* = Box Alert
+/*
+ * =/ Notifications
+ * 
+**************************************************************************************/
+
+.danger-box a,
+.danger-box-icon a{
+  font-weight: 900;
+  text-decoration: underline;
+  color: #e67e22;
+}
+
+.info-box a,
+.info-box-icon a{
+  font-weight: 900;
+  text-decoration: underline;
+  color: #2980b9;
+}
+
+.error-box a,
+.error-box-icon a{
+  font-weight: 900;
+  text-decoration: underline;
+  color: #e74c3c;
+}
+
+/* = Notifications sans icone
 -----------------------------------------------------------------------------*/
 
-.info-box{
+.info-box,
+.info-box-icon{
   background: #F4F8FA;
   color: #2980b9;
   border-left: 5px solid #3498db;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 20px;
   margin: 20px 0 0;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
 }
-.info-box:before{
-  font-family: "Slim";
-  content: "\e683";
-  font-size: 40px;
-  padding: 28px 20px 0 10px;
-  float: left;
-}
-.info-box a{
-  font-weight: 900;
-  text-decoration: underline;
-  color: #2980b9;
-}
 
-.info-box p{
-  padding-left: 75px;
-}
-
-.danger-box {
+.danger-box,
+.danger-box-icon {
   background: #FCF8F2;
   color: #e67e22;
   border-left: 5px solid #f39c12;
-  padding: 10px;
+  padding: 10px 20px;
   margin: 20px 0 0;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-.danger-box:before{
-  font-family: "Slim";
-  content: "\e687";
-  font-size: 40px;
-  padding: 28px 20px 0 10px;
-  float: left;
-}
-.danger-box a{
-  font-weight: 900;
-  text-decoration: underline;
-  color: #e67e22;
-}
-
-.danger-box p{
-  padding-left: 75px;
-}
-
-.error-box {
+.error-box,
+.error-box-icon{
   background: #FDF7F7;
   color: #e74c3c;
   border-left: 5px solid #e74c3c;
-  padding: 10px;
+  padding: 10px 20px;
   margin: 20px 0 0;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-.error-box:before{
+/* = Notifications avec icone
+-----------------------------------------------------------------------------*/
+
+.info-box-icon:before{
   font-family: "Slim";
-  content: "\e678";
+  content: "\e683";
   font-size: 40px;
-  padding: 28px 20px 0 10px;
+  padding: 28px 20px 0 0;
   float: left;
 }
 
-.error-box a{
-  font-weight: 900;
-  text-decoration: underline;
-  color: #e74c3c;
+.danger-box-icon:before{
+  font-family: "Slim";
+  content: "\e687";
+  font-size: 40px;
+  padding: 28px 20px 0 0;
+  float: left;
 }
 
-.error-box p{
-  padding-left: 75px;
+.error-box-icon:before{
+  font-family: "Slim";
+  content: "\e678";
+  font-size: 40px;
+  padding: 28px 20px 0 0;
+  float: left;
 }
+
+.info-box-icon p,
+.danger-box-icon p,
+.error-box-icon p{
+  padding-left: 65px;
+}
+
