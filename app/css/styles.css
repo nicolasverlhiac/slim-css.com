@@ -87,14 +87,26 @@ h1.slider span{
   background:       linear-gradient(left,#53C1AB,#5DABDB);
 }
 
-.titre-taimay {
+.titre-slim {
   font-size: 38px;
   font-weight: normal;
   margin: 0 0 1em 0;
 }
 
-.doc-taimay {
-  margin-top: 3.2em;
+.doc-slim {
+  margin: 2em 0 1em 0;
+  position: relative;
+}
+
+a.doc-link {
+  color: #95A5A6;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+a.doc-link:hover {
+  color: #7F8C8D;
 }
 
 #nav-principal{
@@ -106,8 +118,19 @@ h1.slider span{
   font-size: 14px;
   color: #7f8c8d;
 }
+
+#nav-principal ul li a.btn-lg{ 
+  color: #1ABC9C;
+  padding: 13px 30px;
+}
+
 #nav-principal ul li a:hover{
   color: #2c3e50;
+}
+
+#nav-principal ul li a.btn-lg:hover,
+#nav-principal ul li.menu-top-block a{
+  color: #fff;
 }
 
 #nav-principal ul li a.current{
@@ -259,6 +282,54 @@ h1.slider span{
   float: left;
 }
 
+/* Changelog */
+
+ul.changelog{
+  margin-top: 15px;
+  margin-left: 0;
+}
+
+ul.changelog li{
+  margin: 0 0 3px 0;
+  list-style-type: none;
+}
+
+
+.sticker {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  font-size: 11px;
+  margin-right: 4px;
+  position: relative;
+  top: -2px;
+  line-height: 11px;
+  padding: 3px 6px 2px;
+  display: inline-block;
+}
+
+span.added {
+  border: 1px solid #27ae60;
+  background: #27ae60;
+  color: #ffffff;
+}
+
+span.fixed {
+  border: 1px solid #2c3e50;
+  background: #2c3e50;
+  color: #ffffff;
+}
+
+span.improved {
+  border: 1px solid #2980b9;
+  background: #2980b9;
+  color: #ffffff;
+}
+
+.menu-top-full .menu-top-block {
+  display: none;
+}
+
 /* Media queries!
 -------------------------------------------------------------------------------*/
 
@@ -270,9 +341,14 @@ h1.slider span{
 
 /* menu */
 @media only screen and (min-width: 768px) and (max-width: 1179px) {
-  .menu-top-none {
+  .menu-top-full .menu-top-none {
     display: none;
   }
+
+  .menu-top-full .menu-top-block {
+    display: table-cell;
+  }
+
   .cols-row .menu-top-full {
     width: 100%;
   }
@@ -287,6 +363,14 @@ h1.slider span{
     margin: 10px 0 0 10px;
   }
 
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 850px) {
+
+  .menu-top-full .menu-top-block {
+      display: none;
+  }
 
 }
 

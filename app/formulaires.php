@@ -8,9 +8,9 @@
 
 				<div class="col-80">
 
-					<h1 class="titre-taimay">Formulaires</h1>
+					<h2 class="titre-slim">Formulaires</h2>
 
-					<h4 class="doc-taimay">Formulaire simple (input à largeur réglable)</h4>
+					<h3 id="formulaire-simple" class="doc-slim">Formulaire simple (input à largeur réglable) <a href="#formulaire-simple" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Régler la largeur de vos <code>&lt;input&gt;</code> avec <code>.width-xxx</code></p>
 					<div class="cols-row">
 						<div class="col-50">
@@ -46,7 +46,7 @@
 &lt;/form&gt;</pre>
 
 
-					<h4 class="doc-taimay">Formulaire avec colonnes</h4>
+					<h3 id="formulaire-colonnes" class="doc-slim">Formulaire avec colonnes <a href="#formulaire-colonnes" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>La grille fonctionne tout aussi bien avec votre site qu'avec vos formulaires</p>
 					<div class="cols-row">
 						<div class="col-50">
@@ -92,7 +92,7 @@
 	&lt;input type="submit" class="btn width-100" value="Inscription"&gt;
 &lt;/form&gt;</pre>
 					
-					<h4 class="doc-taimay">Formulaire avec icones</h4>
+					<h3 id="fomulaire-icones" class="doc-slim">Formulaire avec icones <a href="#fomulaire-icones" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Personalisation des champ du formulaire avec une div <code>.input-icon</code>. La balise <code>&lt;span&gt;&lt;/span&gt;</code> a pour class l'icon de votre choix <code>.icon-xxx</code> (<a href="icones.php">liste des icones proposées par SLIM</a>). </p>
 					<div class="cols-row">
 						<div class="col-50">
@@ -134,7 +134,7 @@
 &lt;/form&gt;	
 					</pre>
 
-					<h4 class="doc-taimay">Input avec Radio et Checkbox</h4>
+					<h3 id="input-radio-checkbox" class="doc-slim">Input avec Radio et Checkbox <a href="#input-radio-checkbox" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<div class="cols-row">
 						<div class="col-50">
 							<p>Input de type radio & checkbox alignés avec la class <code>.group-input</code></p>
@@ -222,7 +222,7 @@
 &lt;/form&gt;	
 </pre>
 
-					<h4 class="doc-taimay">Styles en cas d'erreur ou de succés</h4>
+					<h3 id="input-success-error" class="doc-slim">Styles en cas d'erreur ou de succés <a href="#input-success-error" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>La gestion du style d'affichage en cas d'<strong>erreur</strong>, de <strong>problème</strong> ou de <strong>succés</strong> dans un champ du formulaire se fait avec <code>.input-success</code>, <code>.input-problem</code> et <code>.input-error</code>. </p> 
 					<p> La class <code>.input-success</code> customise un champ du formulaire pour un succés. La class <code>.input-problem</code> customise un champ du formulaire pour un problème. Et La class <code>.input-success</code> customise un champ du formulaire pour un succés une erreur.</p>
 					<div class="cols-row">
@@ -309,7 +309,7 @@
 </pre>				
 					
 
-					<h4 class="doc-taimay">Select</h4>
+					<h3 id="select" class="doc-slim">Select <a href="#select" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>La balise <code>&lt;select&gt;</code> est stylisé par le navigateur par défault. Slim le stylise sur les points autorisés par les navigateurs. Avec la class <code>.input</code> le select correspond parfaitement au style de Slim mais a un problème d'affichage sous Webkit (Safari et Chrome).</p>
 					<p><code>select</code> sans class mais stylisé</p>
 					<select name="" id="">
@@ -336,7 +336,7 @@
 	&lt;option value="value3"&gt;Valeur 3&lt;/option&gt;
 &lt;/select&gt;</pre>	
 
-					<h4 class="doc-taimay">Type de <code>&lt;input&gt;</code></h4>
+					<h3 id="input-type" class="doc-slim">Type de <code>&lt;input&gt;</code> <a href="#input-type" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Il existe de nombreux types de champs de saisie dans un formulaire. La valeur par défaut est text, mais plusieurs valeurs sont possibles : </p>
 
 					<table class="width-100">

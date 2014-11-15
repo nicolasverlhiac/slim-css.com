@@ -9,6 +9,7 @@
 							<li class="<?php if($f=='' || $f=='notifications.php' ) echo 'current';?>"><a href="notifications.php">Notifications</a></li>
 							<li class="<?php if($f=='' || $f=='icones.php' ) echo 'current';?>"><a href="icones.php">Icones</a></li>
 							<li class="<?php if($f=='' || $f=='medias.php' ) echo 'current';?>"><a href="medias.php">Médias</a></li>
+							<li class="<?php if($f=='' || $f=='couleurs.php' ) echo 'current';?>"><a href="couleurs.php">Couleurs</a></li>
 							<li class="<?php if($f=='' || $f=='class-aide.php' ) echo 'current';?>"><a href="class-aide.php">Class d'aide</a></li>
 					    </ul>
 					</nav>

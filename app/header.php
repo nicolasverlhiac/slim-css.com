@@ -75,17 +75,17 @@ include_once ("config.php");
 
 				<div class="col-70">
 					<div class="cols-row">
-						<nav id="nav-principal" class="navbar full col-66 menu-top-full">
+						<nav id="nav-principal" class="navbar full menu-top-full">
 							<ul>
 						        <li><a class="<?php if($f=='' || $f=='index.php' ) echo 'current';?>" href="index.php">Accueil</a></li>
 								<li><a class="<?php if($f=='a-propos.php' ) echo 'current'; ?>" href="a-propos.php">Présentation</a></li>
-								<li><a class="<?php if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php') echo 'current';?>" href="typographie.php">Documentation</a></li>
-								<li><a class="<?php if($f=='telechargement.php' ) echo 'current';?>" href="telechargement.php">Versions</a></li>
+								<li><a class="<?php if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php' || $f=='notifications.php' || $f=='couleurs.php') echo 'current';?>" href="typographie.php">Documentation</a></li>
+								<li><a class="<?php if($f=='demonstration.php' ) echo 'current'; ?>" href="demonstration.php">Démonstration</a></li>
+								<!-- <li><a class="<?php if($f=='changelog.php' ) echo 'current';?>" href="changelog.php">Versions</a></li> -->
+								<li class="menu-top-none"><a class="btn-lg <?php if($f=='telechargement.php' ) echo 'current';?>" href="telechargement.php">Téléchargement</a></li>
+								<li class="menu-top-block"><a class="btn btn-blue icon-download <?php if($f=='telechargement.php' ) echo 'current';?>" href="telechargement.php"></a></li>
 							</ul>
 						</nav>
-						<div class="col-33 centered menu-top-none">
-							<a class="btn-icon icon-download btn-dl" href="telechargement.php">Télécharger SLIM</a>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -98,7 +98,8 @@ include_once ("config.php");
 						<span>
 							<?php 
 							if($f=='a-propos.php' ) echo 'Présentation';
-							if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php' ) echo 'Documentation';
+							if($f=='demonstration.php' ) echo 'Démonstration';
+							if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php' || $f=='notifications.php' || $f=='couleurs.php') echo 'Documentation';
 							if($f=='telechargement.php' || $f=='changelog.php' ) echo 'Versions';
 							?>
 						</span>
@@ -108,7 +109,7 @@ include_once ("config.php");
 					<h2 class="soustitre">
 						<?php 
 						if($f=='a-propos.php' ) echo 'Slim est un Framework CSS Open Source. Sa philosophie, offrir un framework léger et modulable tout en restant complet dans sa structure.';
-						if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php' ) echo 'Découvrez le fonctionnement du framework Slim à travers la documenation. Tous les composants y sont abordés, et illustrés des mises en situation.';
+						if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php' || $f=='notifications.php' || $f=='couleurs.php' ) echo 'Découvrez le fonctionnement du framework Slim à travers la documenation. Tous les composants y sont abordés, et illustrés des mises en situation.';
 						if($f=='telechargement.php' || $f=='changelog.php' ) echo 'Le framework Slim vous est offert sous différente formes. Minifié pour la production, commenté pour le développement et "Starter Pack".';
 						?>
 					</h2>

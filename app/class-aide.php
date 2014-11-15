@@ -8,9 +8,10 @@
 
 				<div class="col-80">
 
-					<h1 class="titre-taimay">Class d'Aide</h1>
+					<h2 class="titre-slim">Class d'Aide</h2>
+					<p>Ces class d'aide vous offrent des outils "clé en main" pour modifier rapidement vos designs sans avoir à toucher au CSS de votre site. Elles sont conçu pour répondre à une approche <a href="http://openweb.eu.org/articles/l-approche-dry-don-t-repeat-yourself">DRY pour CSS</a>.</p>
 
-					<h4 class="doc-taimay">Largeur <code>width-xxx</code></h4>
+					<h3 id="largeur" class="doc-slim">Largeur <code>width-xxx</code> <a href="#largeur" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 						<div class="cols-row">
 							<div class="col-100 grille-demo">
 								<div class="bg-demo-width width-100">.width-100</div>
@@ -50,66 +51,7 @@
 &lt;div class="bg-demo-width width-10"&gt;.width-10&lt;/div&gt;</pre>
 						
 
-					<h4 class="doc-taimay">Couleurs additionnelles (Background)</h4>
-					<p>Pour utiliser ces couleurs en background, prennez la class <code>.bg-xxxxxxxx</code> et pour les utiliser en coloration de texte, ne prenez que le nom de la couleur <code>.xxxxxxx</code></p>
-
-					<div class="cols-row">
-						<div class="col-25">
-							<div class="bloc-couleur width-100 bg-turquoise centered">.bg-turquoise</div>
-							<div class="bloc-couleur width-100 bg-green-sea centered">.bg-green-sea</div>
-						</div>
-						<div class="col-25">
-							<div class="bloc-couleur width-100 bg-emerald centered">.bg-emerald</div>
-							<div class="bloc-couleur width-100 bg-nephritis centered">.bg-nephritis</div>
-						</div>
-						<div class="col-25">
-							<div class="bloc-couleur width-100 bg-peter-river centered">.bg-peter-river</div>
-							<div class="bloc-couleur width-100 bg-belize-hole centered">.bg-belize-hole</div>
-						</div>
-						<div class="col-25">
-							<div class="bloc-couleur width-100 bg-amethyst centered">.bg-amethyst</div>
-							<div class="bloc-couleur width-100 bg-wisteria centered">.bg-wisteria</div>
-						</div>
-					</div>
-					<div class="cols-row">
-						<div class="col-25">
-							<div class="bloc-couleur width-100 bg-wet-asphalt centered">.bg-wet-asphalt</div>
-							<div class="bloc-couleur width-100 bg-midnight-blue centered">.bg-midnight-blue</div>
-						</div>
-						<div class="col-25">
-							<div class="bloc-couleur width-100 bg-sun-flower centered">.bg-sun-flower</div>
-							<div class="bloc-couleur width-100 bg-orange centered">.bg-orange</div>
-						</div>
-						<div class="col-25">
-							<div class="bloc-couleur width-100 bg-carrot centered">.bg-carrot</div>
-							<div class="bloc-couleur width-100 bg-pumpkin centered">.bg-pumpkin</div>
-						</div>
-						<div class="col-25">
-							<div class="bloc-couleur width-100 bg-alizarin centered">.bg-alizarin</div>
-							<div class="bloc-couleur width-100 bg-pomegranate centered">.bg-pomegranate</div>
-						</div>
-					</div>
-
-					<div class="cols-row">
-						<div class="col-25">
-							<div class="bloc-couleur width-100 bg-clouds centered">.bg-clouds</div>
-							<div class="bloc-couleur width-100 bg-silver centered">.bg-silver</div>
-						</div>
-						<div class="col-25">
-							<div class="bloc-couleur width-100 bg-concrete centered">.bg-concrete</div>
-							<div class="bloc-couleur width-100 bg-asbestos centered">.bg-asbestos</div>
-						</div>
-					</div>
-					<pre class="prettyprint">
-&lt;div class="bg-turquoise"&gt;
-	Background de ce div en turquoise
-&lt;/div&gt;
-
-&lt;div class="turquoise"&gt;
-	Couleur du texte de ce div en turquoise
-&lt;/div&gt;</pre>
-
-					<h4 class="doc-taimay">Resize</h4>
+					<h3 id="resize" class="doc-slim">Resize <a href="#resize" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Maitrisez le redimensionnement d'un élément avec les classe d'aide <code>resize</code>. Ce type de class s'applique généralement au textarea, mais il est possible de gérer le redimentionement de n'importe quel élément.</p>
 					<p><i class="icon-info2"></i> La propriété <code>resize</code> ne s'applique pas aux éléments blocs dont la propriété overflow vaut <code>visible</code>.</p>
 					<pre class="prettyprint">&lt;textarea name="" id="" rows="4" class="input no-resize"&gt;&lt;/textarea&gt;</pre>

@@ -8,10 +8,10 @@
 
 				<div class="col-80">
 
-					<h1 class="titre-taimay">Typographie</h1>
+					<h2 class="titre-slim">Typographie</h2>
 					<p>La typographie est l'une des caractéristiques la plus importante d'un site web. C'est avec sa taille, son espacement, et sa lisibilité que vous allez donner envie aux internautes de lire votre contenu. </p>
 
-					<h4 class="doc-taimay">Titre et sous-titre</h4>
+					<h3 id="titre-sous-titre" class="doc-slim">Titre et sous-titre <a href="#titre-sous-titre" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					
 
 					<h1>Titre h1</h1>
@@ -40,15 +40,15 @@
 &lt;h1&gt;Exemple | Titre h1&lt;/h1&gt;
 &lt;h1 class=&quot;soustitre&quot;&gt;Exemple | Sous-titre h1&lt;/h1&gt;</pre>
 
-					<h4 class="doc-taimay">Paragraphe mis en avant "lead"</h4>
+					<h3 id="paragraphe-lead" class="doc-slim">Paragraphe mis en avant "lead" <a href="#paragraphe-lead" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p class="lead">Eh ! a propos de devenir marteau, vous savez que chez moi ça peut aller assez loin. Parce que mettons, là on se pose, on analyse le truc, le crincrin ça fait des heures que ça dure, et en plus vous vous y mettez à plusieurs. Et bin moi, le machin, une fois que j'en ai fais des copeaux, je peux très bien mettre le feu au plumard, même au mobilier, ça m'fait pas peur! - Kaamelott</p>
 					<pre class="prettyprint">&lt;p class=&quot;lead&quot;&gt;Eh ! a propos de devenir marteau ... &lt;/p&gt;</pre>
 
-					<h4 class="doc-taimay">Paragraphe simple</h4>
+					<h3 id="paragraphe" class="doc-slim">Paragraphe simple <a href="#paragraphe" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Eh ! a propos de devenir marteau, vous savez que chez moi ça peut aller assez loin. Parce que mettons, là on se pose, on analyse le truc, le crincrin ça fait des heures que ça dure, et en plus vous vous y mettez à plusieurs. Et bin moi, le machin, une fois que j'en ai fais des copeaux, je peux très bien mettre le feu au plumard, même au mobilier, ça m'fait pas peur! - Kaamelott</p>
 					<pre class="prettyprint">&lt;p&gt;Eh ! a propos de devenir marteau ... &lt;/p&gt;</pre>
 
-					<h4 class="doc-taimay">Citation</h4>
+					<h3 id="citation" class="doc-slim">Citation <a href="#citation" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<blockquote>
 						<p>"Ah ça y est, je viens de comprendre à quoi ça sert la canne. En fait ça sert à rien… Du coup ça nous renvoie à notre propre utilité : l’Homme face à l’Absurde!"</p>
 					</blockquote>
@@ -57,7 +57,7 @@
 	&lt;p&gt;"Ah ça y est, je viens de comprendre ... "&lt;/p&gt;
 &lt;/blockquote&gt;</pre>
 
-					<h4 class="doc-taimay">Citation avec auteur et sources</h4>
+					<h3 id="citation-auteur" class="doc-slim">Citation avec auteur et sources <a href="#citation-auteur" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>La balise <code>&lt;small&gt;</code> pour l'auteur et la <code>&lt;cite&gt;</code> pour la référence à l'oeuvre </p>
 					<blockquote>
 						<p>"Ah ça y est, je viens de comprendre à quoi ça sert la canne. En fait ça sert à rien… Du coup ça nous renvoie à notre propre utilité : l’Homme face à l’Absurde!"</p>
@@ -69,7 +69,7 @@
 	&lt;small&gt;Perceval le Gallois&lt;/small&gt; &mdash; &lt;cite&gt;Kaamelott&lt;/cite&gt;
 &lt;/blockquote&gt;</pre>
 					
-					<h4 class="doc-taimay">Adresse</h4>
+					<h3 id="adresse" class="doc-slim">Adresse <a href="#adresse" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Les adresse sont contenu dans une balise <code>&lt;address&gt;</code>. </p>
 					<address>
 						<strong>Adresse de la tour Eiffel</strong> <br>
@@ -85,7 +85,7 @@
 	France
 &lt;/address&gt;</pre>
 					
-					<h4 class="doc-taimay">Listes simples</h4>
+					<h3 id="liste" class="doc-slim">Listes simples <a href="#liste" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 
 					<ul>
 						<li>Cuisine</li>
@@ -136,7 +136,7 @@
 	&lt;li&gt;A propos&lt;/li&gt;
 &lt;/ul&gt;</pre>
 
-					<h4 class="doc-taimay">Listes numéroté</h4>
+					<h3 id="liste-numero" class="doc-slim">Listes numéroté <a href="#liste-numero" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Même fonctionnement que la liste simple mais avec la balise <code>&lt;ol&gt;</code> à la place de <code>&lt;ul&gt;</code> </p>
 					<ol>
 						<li>Cuisine</li>
@@ -187,7 +187,7 @@
 	&lt;li&gt;A propos&lt;/li&gt;
 &lt;/ol&gt;</pre>
 
-					<h4 class="doc-taimay">Afficher du code avec <code>&lt;pre&gt;</code> </h4>
+					<h3 id="afficher-code" class="doc-slim">Afficher du code avec <code>&lt;pre&gt;</code> <a href="#afficher-code" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Présentez du code source avec la balise &lt;pre&gt;. Pour la colorisation syntaxique, utilisez la classe <code>.prettyprint</code> .</p>
 					<pre class="prettyprint">
 if ( 1 == 1 ){
@@ -202,7 +202,7 @@ if ( 1 == 1 ){
 					</pre>
 
 
-					<h4 class="doc-taimay">Éléments de type "En-ligne"</h4>
+					<h3 id="element-en-ligne" class="doc-slim">Éléments de type "En-ligne" <a href="#element-en-ligne" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>« En-ligne » est une catégorie d’éléments HTML, par opposition aux éléments de « niveau bloc ». Les éléments en-ligne peuvent se placer dans des éléments de niveau bloc ou dans d’autres éléments en-ligne. Leur taille s’adapte à leur contenu. <cite>(<a href="https://developer.mozilla.org/fr/docs/Web/HTML/Inline_elemente" target="_blank">source</a>)</cite></p>
 					<table>
 					    <thead>

@@ -8,9 +8,9 @@
 
 				<div class="col-80">
 
-					<h1 class="titre-taimay">Tableaux</h1>
+					<h2 class="titre-taimay">Tableaux</h2>
 
-					<h4 class="doc-taimay">Tableau (gestion des largeurs)</h4>
+					<h3 id="tableau" class="doc-slim">Tableau (gestion des largeurs) <a href="#tableau" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Vous pouvez gérer la largeur de votre tableau avec la classe <code>.width-xx</code>, <a href="grille.php">les largeurs disponibles sont identiques à celles des grilles</a>. Pour gérer la largeur des colonnes, même système de class, à insérer dans la <code>th</code> de <code>thead</code>.</p>
 					<table class="width-100">
 					    <thead>
@@ -80,7 +80,7 @@
 	&lt;/tfoot&gt;
 &lt;/table&gt;</pre>
 
-					<h4 class="doc-taimay">Tableau classic</h4>
+					<h3 id="tableau-classic" class="doc-slim">Tableau classic <a href="#tableau-classic" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Il est possible de laisser les colonnes du tableau se gérer toutes seules.</p>
 					<table class="width-100">
 					    <thead>
@@ -124,7 +124,7 @@
 	&lt;/tbody&gt;
 &lt;/table&gt;</pre>
 
-					<h4 class="doc-taimay">Tableau à bords</h4>
+					<h3 id="tableau-bords" class="doc-slim">Tableau à bords <a href="#tableau-bords" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Pour faire un tableau à bords, utilisez la class <code>.table-bords</code>.</p>
 					<table class="width-100 table-bords">
 					    <thead>
@@ -164,7 +164,7 @@
 	...
 &lt;/table&gt;</pre>
 
-					<h4 class="doc-taimay">Tableau sans bords</h4>
+					<h3 id="tableau-sans-bord" class="doc-slim">Tableau sans bords <a href="#tableau-sans-bord" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Un tableau simple sans bords avec <code>.table-simple</code>.</p>
 					<table class="width-100 table-simple">
 					    <thead>
@@ -204,7 +204,7 @@
 	...
 &lt;/table&gt;</pre>
 
-					<h4 class="doc-taimay">Tableau avec à bande</h4>
+					<h3 id="tableau-bandes" class="doc-slim">Tableau avec à bande <a href="#tableau-bandes" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>L'affichage d'un ligne sur deux du tableau avec un fond gris se fait avec la class <code>table-bande</code>.</p>
 					<table class="width-100 table-bande">
 						<thead>
@@ -237,7 +237,7 @@
 	...
 &lt;/table&gt;</pre>
 
-					<h4 class="doc-taimay">Tableau avev hover</h4>
+					<h3 id="tableau-hover" class="doc-slim">Tableau avec hover <a href="#tableau-hover" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Ajoutez un hover à vos tabeaux avec la class <code>.table-hover</code>.</p>
 					<table class="width-100 table-hover">
 						<thead>

@@ -8,7 +8,7 @@
 
 				<div class="col-80">
 
-					<h1 class="titre-taimay">Grille</h1>
+					<h2 class="titre-slim">Grille</h1>
 
 					<p>La grille fonctionne avec des colonnes en pourcentage. Cette logique de pourcentage rend la grille plus fléxible</p>
 
@@ -99,7 +99,7 @@
 
 					</div>
 
-					<h4 class="doc-taimay">Fonctionnement de la grille</h4>
+					<h3 id="fontionnement-grille" class="doc-slim">Fonctionnement de la grille <a href="#fontionnement-grille" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 
 					<p>La grille contient entre 1 et 10 colonnes. Le principe de grille est le même que celui appliqué en typographie. Peu importe la largeur de la colonne, celle-ci sera toujours proportionnelle au autres.</p>
 					<p>Pour commencer, nos colonnes sont contenu dans une div <code>cols-row</code>.</p>
@@ -125,7 +125,7 @@
 						</div>
 					</div>
 
-					<h4 class="doc-taimay">Sans goutière - <code>cols-split</code> </h4>
+					<h3 id="grille-sans-goutiere" class="doc-slim">Sans goutière - <code>cols-split</code> <a href="#grille-sans-goutiere" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 
 					<p>L'espace entre chaque colonne est une "goutière" de <code>3%</code>. Avec la classe <code>cols-split</code> Il est possible d'enlever les goutières tout en gardant les proportions des colonnes.</p>
 
@@ -146,7 +146,7 @@
 
 					</div>
 
-					<h4 class="doc-taimay">Placement des colonnes au centre - <code>col-centre</code> </h4>
+					<h3 id="colonne-centre" class="doc-slim">Placement des colonnes au centre - <code>col-centre</code> <a href="#colonne-centre" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 
 					<p>Positionner une colonne de n'importe quelle taille au centre de votre grille. Vous pouvez la centrer avec la classe <code>col-centre</code>.</p>
 
@@ -163,7 +163,7 @@
 
 					</div>
 
-					<h4 class="doc-taimay">Placement des colonnes en poussant à droite - <code>col-push-droite</code></h4>
+					<h3 id="colonne-droite-push" class="doc-slim">Placement des colonnes en poussant à droite - <code>col-push-droite</code><a href="#colonne-droite-push" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 
 					<p>Positionner une colonne de n'importe quelle taille à droite de votre grille avec <code>col-push-droite</code>.</p>
 
@@ -180,7 +180,7 @@
 
 					</div>
 
-					<h4 class="doc-taimay">Placement des colonnes en poussant du bord gauche vers la droite- <code>col-push-xx</code> </h4>
+					<h3 id="colonne-push-x" class="doc-slim">Placement des colonnes en poussant du bord gauche vers la droite- <code>col-push-xx</code><a href="#colonne-push-x" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 
 					<p>Positionner une colonne de n'importe quelle taille dans votre grille en la décallant du bord gauche intérieur. </p>
 

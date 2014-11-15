@@ -85,7 +85,7 @@ include_once ("config.php");
 						<ol>
 							<li>Télécharger Slim <br> 50 Ko</li>
 							<li>Contruisez votre site <br> très vite</li>
-							<li>Déjà fini? <br> Reposez vous</li>
+							<li>Déjà fini? <br>Projet suivant !</li>
 						</ol>
 					</div>
 				</div>

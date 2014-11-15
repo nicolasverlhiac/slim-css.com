@@ -8,9 +8,9 @@
 
 				<div class="col-80">
 
-					<h1 class="titre-taimay">Navigation</h1>
+					<h2 class="titre-slim">Navigation</h2>
 
-					<h4 class="doc-taimay">Barre de navigation horizontale</h4>
+					<h3 id="barre-navigation-horizontale" class="doc-slim">Barre de navigation horizontale <a href="#barre-navigation-horizontale" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<nav class="navbar">
 						<ul>
 							<li><a href="">Cuisine</a></li>
@@ -31,7 +31,7 @@
 	&lt;/ul&gt;
 &lt;/nav&gt;</pre>
 					
-					<h4 class="doc-taimay">Barre de navigation pleine largeur horizontale</h4>
+					<h3 id="barre-navigation-full-horizontale" class="doc-slim">Barre de navigation pleine largeur horizontale <a href="#barre-navigation-full-horizontale" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<nav class="navbar full">
 						<ul>
 							<li><a href="">Cuisine</a></li>
@@ -52,7 +52,7 @@
 	&lt;/ul&gt;
 &lt;/nav&gt;</pre>
 
-					<h4 class="doc-taimay">Double barre de navigation horizontale</h4>
+					<h3 id="barre-navigation-double-horizontale" class="doc-slim">Double barre de navigation horizontale <a href="#barre-navigation-double-horizontale" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<div class="cols-row">
 						<div class="col-100">
 							<nav class="navbar navbar-left">
@@ -88,7 +88,7 @@
 		&lt;li&gt;&lt;a href="#"&gt;Recettes&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/nav&gt;</pre>
-					<h4 class="doc-taimay">Navigation verticale</h4>
+					<h3 id="navigation-verticale" class="doc-slim">Navigation verticale <a href="#navigation-verticale" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<nav class="nav">
 						<ul>
 							<li><a href="">Cuisine</a></li>
@@ -108,7 +108,7 @@
 		&lt;li&gt;&lt;a href="#"&gt;À propos&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/nav&gt;</pre>	
-					<h4 class="doc-taimay">Navigation verticales avec séparateur</h4>
+					<h3 id="navigation-verticale-separateur" class="doc-slim">Navigation verticales avec séparateur <a href="#navigation-verticale-separateur" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<nav class="nav nav-separ">
 						<ul>
 							<li><a href="">Cuisine</a></li>
@@ -129,7 +129,7 @@
 	&lt;/ul&gt;
 &lt;/nav&gt;</pre>
 
-					<h4 class="doc-taimay">Navigation verticales en boite avec séparateur</h4>
+					<h3 id="navigation-verticale-boite-separateur" class="doc-slim">Navigation verticales en boite avec séparateur <a href="#navigation-verticale-boite-separateur" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<nav class="nav nav-box">
 						<ul>
 							<li><a href="">Cuisine</a></li>
@@ -150,7 +150,7 @@
 	&lt;/ul&gt;
 &lt;/nav&gt;</pre>
 
-					<h4 class="doc-taimay">Navigation fil d'Ariane </h4>
+					<h3 id="navigation-fil-ariane" class="doc-slim">Navigation fil d'Ariane  <a href="#navigation-fil-ariane" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>L'utilisation d'un fil d'riane se fait à partir d'une liste normal avec la classe <code>.navbar-fil</code></p>
 					<nav class="navbar-fil">
 						<ul>
@@ -170,7 +170,7 @@
 	&lt;/ul&gt;
 &lt;/nav&gt;</pre>	
 
-					<h4 class="doc-taimay">Navigation fil d'Ariane séparé par <kbd> | </kbd></h4>
+					<h3 id="navigation-fil-ariane-separateur" class="doc-slim">Navigation fil d'Ariane séparé par <kbd> | </kbd> <a href="#navigation-fil-ariane-separateur" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Pour changer le séparateur par un trait utilisez la classe <code>.sep-pipe</code></p>
 					<nav class="navbar-fil sep-pipe">
 						<ul>
@@ -190,7 +190,7 @@
 	&lt;/ul&gt;
 &lt;/nav&gt;</pre>
 
-					<h4 class="doc-taimay">Navigation fil d'Ariane  séparé par <kbd> / </kbd></h4>
+					<h3 id="navigation-fil-ariane-separateur-slash" class="doc-slim">Navigation fil d'Ariane  séparé par <kbd> / </kbd> <a href="#navigation-fil-ariane-separateur-slash" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Pour changer le séparateur par un trait oblique utilisez la classe <code>.sep-slash</code></p>
 					<nav class="navbar-fil sep-slash">
 						<ul>
@@ -210,7 +210,7 @@
 	&lt;/ul&gt;
 &lt;/nav&gt;</pre>
 	
-					<h4 class="doc-taimay">Pagination</h4>
+					<h3 id="pagination" class="doc-slim">Pagination <a href="#pagination" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Utilisez une liste avec la classe <code>.pagination</code>. Pour changer l'aspect de l'onglet courrant, appliquez la classe <code>.current</code> sur la balise <code>li</code> ou <code>a</code>ou mettez le entre <code>&lt;span&gt; ... &lt;/span&gt;</code>.</p>
 					<ul class="pagination">
 						<li><a href="">1</a></li>
@@ -225,12 +225,14 @@
 	&lt;li&gt;&lt;a href="page-2.hml"&gt;2&lt;/a&gt;&lt;/li&gt;
 	&lt;li&gt;&lt;span&gt;3&lt;/span&gt;&lt;/li&gt;
 	&lt;!-- 
-		Autres méthodes pour mettre en onglet courrant avec la classe .current
-		
-		&lt;li&gt;&lt;a href="page-3.html" class="current"&gt;3&lt;/a&gt;&lt;/li&gt;
-		ou
-		&lt;li class="current"&gt;&lt;a href="page-3.html"&gt;3&lt;/a&gt;&lt;/li&gt; 
+	  Autres méthodes pour mettre en onglet courrant avec la classe .current
 	--&gt;
+		
+	&lt;li&gt;&lt;a href="page-3.html" class="current"&gt;3&lt;/a&gt;&lt;/li&gt;
+
+	&lt;!-- ou --&gt;
+
+	&lt;li class="current"&gt;&lt;a href="page-3.html"&gt;3&lt;/a&gt;&lt;/li&gt; 
 &lt;/ul&gt;</pre>
 
 				</div>

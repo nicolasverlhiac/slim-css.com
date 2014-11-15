@@ -12,4 +12,7 @@ $pageInfos['navigation.php']['titre']="Navigation / Slim CSS Framework";
 $pageInfos['tableaux.php']['titre']="Tableaux / Slim CSS Framework";
 $pageInfos['telechargement.php']['titre']="Téléchargement des versions de Slim CSS Framework";
 $pageInfos['typographie.php']['titre']="Typographie / Slim CSS Framework";
+$pageInfos['notifications.php']['titre']="Notifications / Slim CSS Framework";
+$pageInfos['couleurs.php']['titre']="Couleurs additionnelles / Slim CSS Framework";
+
 ?>

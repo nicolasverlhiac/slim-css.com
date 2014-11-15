@@ -8,10 +8,10 @@
 
 				<div class="col-80">
 
-					<h1 class="titre-taimay">Pack d'Icones</h1>			
+					<h2 class="titre-slim">Pack d'Icones</h2>
 					<p>L'intégration d'icones se fait avec la class <code>icon-xxx</code></p>
 
-					<h4 class="doc-taimay">Set d'icones</h4>
+					<h3 id="pack-icones" class="doc-slim">Set d'icones <a href="#pack-icones" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Profitez d'un pack de plus de 300 icones</p>
 					<div class="bloc-icon">
 						<span class="icon-phone"></span><code> icon-phone</code>
