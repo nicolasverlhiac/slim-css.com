@@ -137,6 +137,12 @@ a.doc-link:hover {
   color: #2c3e50;
 }
 
+#nav-principal ul li a.currentdl{
+  background: #1ABC9C;
+  color: #ffffff;
+}
+
+
 #nav-side ul li a{ 
   padding: 10px 15px;
   font-weight: 500;
@@ -329,6 +335,109 @@ span.improved {
 .menu-top-full .menu-top-block {
   display: none;
 }
+
+.version-slim {
+  margin-bottom: 40px;
+}
+
+.version-slim .col-25{
+  background: #ffffff;
+  border-top: 1px solid #ADC5D1;
+  border-bottom: 1px solid #ADC5D1;
+  border-left: 1px solid #ADC5D1;
+  font-size: 20px;
+  font-weight: 100;
+  position: relative;
+  padding: 18px;
+  color: rgb(52, 152, 219);
+   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.version-slim .col-25:hover{
+  color: #ffffff;
+  cursor: pointer;
+  background: rgb(52, 152, 219);
+}
+
+.version-slim .active{
+  color: #ffffff;
+  cursor: pointer;
+  background: rgb(52, 152, 219);
+}
+
+.ico-big {
+  margin-top: 20px;
+}
+
+.ico-big i{
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0;
+  float: left;
+}
+
+.ico-big span{
+  line-height: 30px;  
+  margin-left: 10px;
+  font-size: 16px;
+  float: left;
+}
+
+.version-slim .last{
+  border-right: 1px solid #ADC5D1;
+}
+
+
+.version-slim span{
+  font-size: 100px;
+  padding: 30px 30px 25px;
+  display: inline-block;
+}
+
+.version-slim .active .triangle{
+  position: absolute;
+  top: 213px;
+  right: 40%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 0 25px;
+  border-color: #3498DB transparent transparent 
+}
+
+
+.btn-blue-3d {
+  background: #3498db;
+  box-shadow:0px 4px 0px #2980b9 ;
+}
+.btn-blue-3d:hover,
+.btn-blue-3d:visited,
+.btn-blue-3d:focus {
+  background: #2980b9;
+  box-shadow:0px 2px 0px #1F5577;
+}
+.btn-blue-3d:active{
+  background: #2980b9;
+  box-shadow:0px 0px 0px;
+}
+
+.btn-dark-3d {
+  background: #34495E;
+  box-shadow:0px 4px 0px #2C3E50;
+}
+.btn-dark-3d:hover,
+.btn-dark-3d:visited,
+.btn-dark-3d:focus {
+  background: #2C3E50;
+  box-shadow:0px 2px 0px #000000;
+}
+.btn-dark-3d:active{
+  background: #2C3E50;
+  box-shadow:0px 0px 0px;
+}
+
 
 /* Media queries!
 -------------------------------------------------------------------------------*/

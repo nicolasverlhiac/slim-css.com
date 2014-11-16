@@ -9,56 +9,99 @@
 
 				<div class="col-80">
 
-					<h1 class="titre-taimay">Téléchargement de Slim</h1>
-						
-					<div class="cols-row">
-						<div class="col-100">
-							<h2 class="soustitre">Slim.css</h2>
-							<table class="width-100">
-							    <thead>
-							        <tr>
-							            <th class="width-40 ">Version</th>
-							            <th class="width-10">Taille</th>
-							            <th class="width-20">Date</th>
-							            <th class="width-30">Téléchargement</th>
-							        </tr>
-							    <tbody>
-							    	<tr>
-							            <td>Slim_v0.33 + (Version minifié)</td>
-							            <td>36 Ko</td>
-							            <td>30 Juin 2014</td>
-							            <td><a href="repos/slim.zip" class="btn-icon icon-download">Télécharger</a></td>
-							        </tr>
-							        <tr>
-							            <td>Slim_v0.33 + (pack font d'icones)</td>
-							            <td>510 Ko</td>
-							            <td>30 Juin 2014</td>
-							            <td><a href="repos/slim+icons.zip" class="btn-icon icon-download">Télécharger</a></td>
-							        </tr>
-							    </tbody>
-							</table>
+					<div class="cols-row cols-split version-slim centered">
+						<div id="developpement" class="col-25 active">
+							<span class="icon-tools"></span>
+							Développement
+							<div class="triangle"></div>
+						</div>
+						<div id="production" class="col-25">
+							<span class="icon-publish"></span>
+							Production
+							<div class="triangle"></div>
+						</div>
+						<div id="cdn" class="col-25">
+							<span class="icon-drive"></span>
+							CDN
+							<div class="triangle"></div>
+						</div>
+						<div id="starter-pack" class="col-25 last">
+							<span class="icon-paperplane"></span>
+							Starter Pack
+							<div class="triangle"></div>
 						</div>
 					</div>
-					<div class="cols-row">
+
+					<div class="cols-row" id="content-developpement">
 						<div class="col-100">
-							<h2 class="soustitre">Slim Starter Pack (Pour commencer rapidement vos projet)</h2>
-							<table class="width-100">
-							    <thead>
-							        <tr>
-							            <th class="width-40 ">Version</th>
-							            <th class="width-10">Taille</th>
-							            <th class="width-20">Date</th>
-							            <th class="width-30">Téléchargement</th>
-							        </tr>
-							    <tbody>
-							        <tr>
-							            <td>Slim_v0.33-SP</td>
-							            <td>620 Ko</td>
-							            <td>5/07/1014</td>
-							            <td><a href="https://github.com/nicolasverlhiac/Slim-CSS-Starter-Pack/archive/master.zip" class="btn-icon icon-download">Télécharger</a></td>
-							        </tr>
-							    </tbody>
-							</table>
+							<h2 class="soustitre"> Slim pour le développement</h2>
+
+							<div class="cols-row">
+								<div class="col-40">
+									<a class="btn-3d btn-blue-3d ico-big">
+										<i class="icon-arrow-down3 ico-big"></i> <span>Slim v0.36 (non minifié)</span></a>	
+									<p class="width-80"><small>Récupérer la version des CSS et des sources de SLIM en version non minifié dans une archive .zip.</small></p>
+								</div>
+
+								<div class="col-60">
+
+									<p>Pour le développement de votre site, cette version de SLIM est spécialement conçus pour vous rendre la vie plus facile dans votre tache de création. Tous les CSS sont commentés. La librairie Jquery est incluse dans sa dernière version.</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="cols-row hide" id="content-production">
+						<div class="col-100">
+							<h2 class="soustitre"> Slim pour la production</h2>
+							<div class="cols-row">
+								<div class="col-40">
+									<a class="btn-3d btn-green ico-big">
+										<i class="icon-arrow-down3 ico-big"></i> <span>Slim v0.36 (minifié)</span></a>	
+									<p class="width-80"><small>Tous les fichiers sont minifiés et dé-commentés.</small></p>
+								</div>
+								<div class="col-60">
+									<p>Lorsque votre site est en production, la moindre micro-seconde compte dans le chargement de votre site. Cette version de SLIM est entièrement minifié afin de rendre le framework plus léger qu'il ne l'est déjà.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="cols-row hide" id="content-cdn">
+						<div class="col-100">
+							<h2 class="soustitre">CDN de Slim</h2>
+							<div class="cols-row">
+								<div class="col-50">
+									<p>Utilisez le réseaux de serveurs mis à votre disposition pour délivrer le plus rapidement les fichiers de SLIM. Décharger vos serveurs et augmenter la rapidité de votre site. Vous pouvez choisir les fichiers déchargé par les CDN, le second lien contient les icones.</p>
+								</div>
+								<div class="col-50" style="margin-top:22px;">
+									<div class="input-icon">
+										<input id="identifiant" class="input width-100" placeholder="http://cdn.slim-css.com/slim.0.36.min.css" type="text" value="http://cdn.slim-css.com/slim.0.36.min.css">
+										<span style="top:0; background:#3498DB;" class="icon-drive"></span>
+									</div>
+									<div class="input-icon">
+										<input id="identifiant" class="input width-100" placeholder="http://cdn.slim-css.com/slim-icons.0.36.min.css" type="text" value="http://cdn.slim-css.com/slim-icons.0.36.min.css">
+										<span style="top:0; background:#3498DB;" class="icon-drive"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="cols-row hide" id="content-starter-pack">
+						<div class="col-100">
+							<h2 class="soustitre">Starter Pack de Slim</h2>
+							<div class="cols-row">
+								<div class="col-60">
+									<p>Ce pack contient tous les fichiers dont on a besoin sur un projet web "from scratch". En un click, votre projet est prêt à partir, avec les paramétrages et la mise en place en moins à faire.</p>
+								</div>
+								<div class="col-40 text-right">
+									<a class="btn-3d btn-dark-3d ico-big">
+										<i class="icon-arrow-down3 ico-big"></i> <span>Starter Pack SLIM</span>
+									</a>	
+								</div>
+							</div>
 						</div>
 					</div>
 

@@ -269,7 +269,6 @@ a {
   text-decoration: none;
 }
 
-a:focus,
 a:hover {
   color: #3498db;
 }
@@ -1346,6 +1345,11 @@ select::-moz-placeholder {
 .btn:before{  
   font-family: "Slim";
 }
+
+a.btn:focus{  
+  color: #ffffff;
+}
+
 
 .petit {
   padding: 10px 15px;

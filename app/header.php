@@ -78,11 +78,11 @@ include_once ("config.php");
 						<nav id="nav-principal" class="navbar full menu-top-full">
 							<ul>
 						        <li><a class="<?php if($f=='' || $f=='index.php' ) echo 'current';?>" href="index.php">Accueil</a></li>
-								<li><a class="<?php if($f=='a-propos.php' ) echo 'current'; ?>" href="a-propos.php">Présentation</a></li>
+								<li><a class="<?php if($f=='a-propos.php' ) echo 'current'; ?>" href="presentation">Présentation</a></li>
 								<li><a class="<?php if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php' || $f=='notifications.php' || $f=='couleurs.php') echo 'current';?>" href="typographie.php">Documentation</a></li>
-								<li><a class="<?php if($f=='demonstration.php' ) echo 'current'; ?>" href="demonstration.php">Démonstration</a></li>
+								<li><a class="<?php if($f=='demonstration.php' ) echo 'current'; ?>" href="demonstration">Démonstration</a></li>
 								<!-- <li><a class="<?php if($f=='changelog.php' ) echo 'current';?>" href="changelog.php">Versions</a></li> -->
-								<li class="menu-top-none"><a class="btn-lg <?php if($f=='telechargement.php' ) echo 'current';?>" href="telechargement.php">Téléchargement</a></li>
+								<li class="menu-top-none"><a class="btn-lg btn-round <?php if($f=='telechargement.php' ) echo 'currentdl';?>" href="telechargement.php">Télécharger SLIM</a></li>
 								<li class="menu-top-block"><a class="btn btn-blue icon-download <?php if($f=='telechargement.php' ) echo 'current';?>" href="telechargement.php"></a></li>
 							</ul>
 						</nav>
@@ -100,7 +100,7 @@ include_once ("config.php");
 							if($f=='a-propos.php' ) echo 'Présentation';
 							if($f=='demonstration.php' ) echo 'Démonstration';
 							if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php' || $f=='notifications.php' || $f=='couleurs.php') echo 'Documentation';
-							if($f=='telechargement.php' || $f=='changelog.php' ) echo 'Versions';
+							if($f=='telechargement.php' || $f=='changelog.php' ) echo 'Téléchargement';
 							?>
 						</span>
 					</h1>

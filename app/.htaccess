@@ -215,8 +215,8 @@ AddDefaultCharset utf-8
     RewriteEngine On
   # RewriteBase /
 
-  RewriteRule ^presentation$                     a-propos.php [L]
-  RewriteRule ^demonstration$                    demonstration.php [L]
+  RewriteRule ^presentation$           a-propos.php [L]
+  RewriteRule ^demonstration$          demonstration.php [L]
 
 
 </IfModule>
