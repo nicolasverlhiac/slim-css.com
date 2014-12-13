@@ -1,5 +1,9 @@
 <?php 
+// Informations sur Slim
 $version = "v0.33";
+$extension = ".slim";
+
+// Référencement
 $pageInfos['a-propos.php']['titre']="Présentation de Slim CSS Framework";
 $pageInfos['boutons.php']['titre']="Boutons / Slim CSS Framework";
 $pageInfos['changelog.php']['titre']="ChangeLogs / Slim CSS Framework";
@@ -14,5 +18,4 @@ $pageInfos['telechargement.php']['titre']="Téléchargement des versions de Slim
 $pageInfos['typographie.php']['titre']="Typographie / Slim CSS Framework";
 $pageInfos['notifications.php']['titre']="Notifications / Slim CSS Framework";
 $pageInfos['couleurs.php']['titre']="Couleurs additionnelles / Slim CSS Framework";
-
 ?>

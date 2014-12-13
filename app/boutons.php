@@ -56,7 +56,7 @@
 </pre>
 
 					<h3 id="bouton-icone" class="doc-slim">Boutons avec icone <a href="#bouton-icone" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
-					<p>Ajouter une icone au bouton avec <code>.btn-icon</code> et l'icone avec la class <code>.icon-xxxx</code> (<a href="icones.php">liste des icones disponibles</a>).</p>
+					<p>Ajouter une icone au bouton avec <code>.btn-icon</code> et l'icone avec la class <code>.icon-xxxx</code> (<a href="icones<?php echo $extension; ?>">liste des icones disponibles</a>).</p>
 					<a class="btn-icon icon-download">Télécharger</a>
 					<br><br>
 					<a class="btn-icon icon-user-add">Ajouter un utilisateur</a>
@@ -99,7 +99,7 @@
 &lt;a class="btn btn-grey"&gt;.btn-grey&lt;/a&gt;</pre>
 
 					<h3 id="bouton-juste-icone" class="doc-slim">Boutons avec icone seule <a href="#bouton-juste-icone" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
-					<p>Ajouter des icones dans vos bouton à la place du texte avec <code>icon-xxxx</code> (<a href="icones.php">liste des icones disponibles</a>)</p>
+					<p>Ajouter des icones dans vos bouton à la place du texte avec <code>icon-xxxx</code> (<a href="icones<?php echo $extension; ?>">liste des icones disponibles</a>)</p>
 					<a class="btn btn-red icon-heart width-20"></a>
 					<a class="btn btn-green icon-user-add width-20"></a>
 					<a class="btn btn-blue icon-chat width-20"></a>

@@ -93,7 +93,7 @@
 &lt;/form&gt;</pre>
 					
 					<h3 id="fomulaire-icones" class="doc-slim">Formulaire avec icones <a href="#fomulaire-icones" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
-					<p>Personalisation des champ du formulaire avec une div <code>.input-icon</code>. La balise <code>&lt;span&gt;&lt;/span&gt;</code> a pour class l'icon de votre choix <code>.icon-xxx</code> (<a href="icones.php">liste des icones proposées par SLIM</a>). </p>
+					<p>Personalisation des champ du formulaire avec une div <code>.input-icon</code>. La balise <code>&lt;span&gt;&lt;/span&gt;</code> a pour class l'icon de votre choix <code>.icon-xxx</code> (<a href="icones<?php echo $extension; ?>">liste des icones proposées par SLIM</a>). </p>
 					<div class="cols-row">
 						<div class="col-50">
 							<form action="" method="POST">

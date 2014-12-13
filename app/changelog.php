@@ -14,8 +14,8 @@
 
 					<h4 class="doc-taimay">Version 0.36 <small>(9 Novembre 2014)</small></h4>
 					<ul class="changelog">
-						<li><span class="sticker added">Ajout</span> Documentation, catégorie <a href="notifications.php">Notifications</a>.</li>
-						<li><span class="sticker added">Ajout</span> Documentation, catégorie <a href="couleurs.php">Couleurs</a>.</li>
+						<li><span class="sticker added">Ajout</span> Documentation, catégorie <a href="notifications<?php echo $extension; ?>">Notifications</a>.</li>
+						<li><span class="sticker added">Ajout</span> Documentation, catégorie <a href="couleurs<?php echo $extension; ?>">Couleurs</a>.</li>
 						<li><span class="sticker improved">Amélioration</span> Box d'alert (Information, Attention, Erreure) avec et sans icone.</li>
 						<li><span class="sticker improved">Amélioration</span> Navigation dans les catégories avec des ancres</li>
 						<li><span class="sticker improved">Amélioration</span> Structuration de l'information dans la documentation (h1 > h2 > h3)</li>
@@ -27,7 +27,7 @@
 						<li><span class="sticker added">Ajout</span> Bouton en 3D avec <code>.btn-3d</code>.</li>
 						<li><span class="sticker added">Ajout</span> Select pour formulaire avec <code>.select</code>.</li>
 						<li><span class="sticker added">Ajout</span> Class d'aide pour gérer le resize des block.</li>
-						<li><span class="sticker fixed">Correction</span> Documentation, erreur dans l'exemple de la partie <a href="navigation.php">navigation</a></li>
+						<li><span class="sticker fixed">Correction</span> Documentation, erreur dans l'exemple de la partie <a href="navigation<?php echo $extension; ?>">navigation</a></li>
 
 					</ul>
 					

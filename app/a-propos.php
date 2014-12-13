@@ -11,7 +11,7 @@
 
 							<p class="lead">Slim est un projet vivant et Open Source, qui évolue au fur et à mesure. 
 								Actuellement, il possède un certain nombre de fonctionnalités qui permettent de commencer un projet web stable. 
-								Dans un but constant d'améliorartion du framework, suivez son évolution grâce aux <a href="changelog.php">ChangeLogs</a> (journal des modifications).</p>
+								Dans un but constant d'améliorartion du framework, suivez son évolution grâce aux <a href="changelog<?php echo $extension; ?>">ChangeLogs</a> (journal des modifications).</p>
 						</div>
 						<div class="col-40 centered">
 
@@ -23,7 +23,7 @@
 							<img src="img/nicolas-verlhiac-profil.png" alt="">
 							<h3>Nicolas Verlhiac</h3>
 							<h3 class="soustitre">Créateur de Slim & Webdesigner</h3>
-							<p>Je nourris l'idée qu'un jour, le web sera un lieu accessible à tous et répondra aux besoins de chacun. - <a href="http://nicolasverlhiac.fr" target="_blank">website</a></p>
+							<p>Je nourris l'idée qu'un jour, le web sera un lieu accessible à tous et répondra aux besoins de chacun. - <a href="http://nicolasverlhiac.fr" target="_blank">website</a>, <a href="" class="icon-twitter"></a>, <a href="" class="icon-facebook"></a></p>
 						</div>
 					</div>
 				</div>

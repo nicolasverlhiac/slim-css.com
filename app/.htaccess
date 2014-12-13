@@ -218,6 +218,8 @@ AddDefaultCharset utf-8
   RewriteRule ^presentation$           a-propos.php [L]
   RewriteRule ^demonstration$          demonstration.php [L]
 
+  # Changement de l'extension des pages
+  RewriteRule ^(.*)\.slim$ $1.php [L]
 
 </IfModule>
 

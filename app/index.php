@@ -69,7 +69,7 @@ include_once ("config.php");
 
 			<div class="cols-row">
 				<div class="col-100 centered">
-					<a class="btn-icon icon-download btn-acc" href="telechargement.php">Télécharger SLIM <small><?php echo $version; ?></small></a>
+					<a class="btn-icon icon-download btn-acc" href="telechargement<?php echo $extension; ?>">Télécharger SLIM <small><?php echo $version; ?></small></a>
 					<a class="btn-icon icon-github btn-acc last" href="https://github.com/nicolasverlhiac/Slim-CSS-Framework">SLIM sur Github</a>
 				</div>
 			</div>
@@ -101,7 +101,7 @@ include_once ("config.php");
 							<p class="lead">Apprenez à vous servir de Slim grâce à une documenation accessible, en français et très complète. De nombreux exemples et cas de figures y sont abordés.</p>
 						</div>
 						<div class="col-30 centered">
-							<a class="btn" style="margin-top:50px;" href="typographie.php">Documentation</a>
+							<a class="btn" style="margin-top:50px;" href="typographie<?php echo $extension; ?>">Documentation</a>
 						</div>
 					</div>	
 

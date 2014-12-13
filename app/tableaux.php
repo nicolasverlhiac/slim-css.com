@@ -11,7 +11,7 @@
 					<h2 class="titre-taimay">Tableaux</h2>
 
 					<h3 id="tableau" class="doc-slim">Tableau (gestion des largeurs) <a href="#tableau" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
-					<p>Vous pouvez gérer la largeur de votre tableau avec la classe <code>.width-xx</code>, <a href="grille.php">les largeurs disponibles sont identiques à celles des grilles</a>. Pour gérer la largeur des colonnes, même système de class, à insérer dans la <code>th</code> de <code>thead</code>.</p>
+					<p>Vous pouvez gérer la largeur de votre tableau avec la classe <code>.width-xx</code>, <a href="grille<?php echo $extension; ?>">les largeurs disponibles sont identiques à celles des grilles</a>. Pour gérer la largeur des colonnes, même système de class, à insérer dans la <code>th</code> de <code>thead</code>.</p>
 					<table class="width-100">
 					    <thead>
 					        <tr>
