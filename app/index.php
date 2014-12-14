@@ -12,7 +12,7 @@ include_once ("config.php");
 
 	<head>
 		<meta charset="utf-8" />
-		<title>Slim HTML/CSS</title>
+		<title>Slim Framework HTML/CSS</title>
 
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
@@ -48,7 +48,7 @@ include_once ("config.php");
 
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="css/slim-icons.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="css/slim.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/slim.min.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
 
 	</head>
@@ -56,11 +56,22 @@ include_once ("config.php");
 	<body id="accueil">
 
 		<div class="main-container">
+			<div class="cols-row">
+				<div class="col-100">
+					<nav id="nav-index" class="navbar full menu-top-full">
+						<ul>
+					        <li><a href="index<?php echo $extension; ?>">Accueil</a></li>
+							<li><a href="presentation">Présentation</a></li>
+							<li><a href="typographie<?php echo $extension; ?>">Documentation</a></li>
+							<li><a href="demonstration">Démonstration</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 
 			<div class="cols-row">
-
 				<div id="logo-acc" class="col-centre col-100 centered">
-					<img src="img/logo-slim-badge.png">
+					<img src="img/logo-slim-badge.png" width="300" height="299">
 					<h1 class="soustitre">SLIM CSS & HTML</h1>
 					<h2 class="soustitre">Framework accélérateur de projet web</h2>
 				</div>
