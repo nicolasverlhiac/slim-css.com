@@ -70,7 +70,7 @@
 
 					<div class="cols-row hide" id="content-cdn">
 						<div class="col-100">
-							<h2 class="soustitre">CDN de Slim</h2>
+							<h2 class="soustitre">CDN de SLIM</h2>
 							<div class="cols-row">
 								<div class="col-50">
 									<p>Utilisez le réseaux de serveurs mis à votre disposition pour délivrer le plus rapidement les fichiers de SLIM. Décharger vos serveurs et augmenter la rapidité de votre site. Vous pouvez choisir les fichiers déchargé par les CDN, le second lien contient les icones.</p>

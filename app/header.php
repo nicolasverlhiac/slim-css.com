@@ -51,7 +51,7 @@ include_once ("config.php");
 		
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="css/slim-icons.css" type="text/css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="css/slim.css" />
+		<link rel="stylesheet" href="css/slim.min.css" type="text/css" />
 		<!-- <link rel="stylesheet/less" type="text/css" href="css/slim.less" /> -->
 		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
 
