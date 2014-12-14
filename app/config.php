@@ -1,7 +1,9 @@
 <?php 
 // Informations sur Slim
-$version = "v0.33";
+$version = "v0.36";
+$versionCDN = "0.36.min.css";
 $extension = ".slim";
+
 
 // Référencement
 $pageInfos['a-propos.php']['titre']="Présentation de Slim CSS Framework";

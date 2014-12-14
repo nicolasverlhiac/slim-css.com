@@ -39,7 +39,7 @@
 							<div class="cols-row">
 								<div class="col-40">
 									<a class="btn-3d btn-blue-3d ico-big">
-										<i class="icon-arrow-down3 ico-big"></i> <span>Slim v0.36 (non minifié)</span></a>	
+										<i class="icon-arrow-down3 ico-big"></i> <span>Slim <?php echo $version; ?> (non minifié)</span></a>	
 									<p class="width-80"><small>Récupérer la version des CSS et des sources de SLIM en version non minifié dans une archive .zip.</small></p>
 								</div>
 
@@ -58,7 +58,7 @@
 							<div class="cols-row">
 								<div class="col-40">
 									<a class="btn-3d btn-green ico-big">
-										<i class="icon-arrow-down3 ico-big"></i> <span>Slim v0.36 (minifié)</span></a>	
+										<i class="icon-arrow-down3 ico-big"></i> <span>Slim <?php echo $version; ?> (minifié)</span></a>	
 									<p class="width-80"><small>Tous les fichiers sont minifiés et dé-commentés.</small></p>
 								</div>
 								<div class="col-60">
@@ -77,11 +77,11 @@
 								</div>
 								<div class="col-50" style="margin-top:22px;">
 									<div class="input-icon">
-										<input id="identifiant" class="input width-100" placeholder="http://cdn.slim-css.com/slim.0.36.min.css" type="text" value="http://cdn.slim-css.com/slim.0.36.min.css">
+										<input id="identifiant" class="input width-100" placeholder="http://cdn.slim-css.com/slim.<?php echo $versionCDN; ?>" type="text" value="http://cdn.slim-css.com/slim.<?php echo $versionCDN; ?>">
 										<span style="top:0; background:#3498DB;" class="icon-drive"></span>
 									</div>
 									<div class="input-icon">
-										<input id="identifiant" class="input width-100" placeholder="http://cdn.slim-css.com/slim-icons.0.36.min.css" type="text" value="http://cdn.slim-css.com/slim-icons.0.36.min.css">
+										<input id="identifiant" class="input width-100" placeholder="http://cdn.slim-css.com/slim-icons.<?php echo $versionCDN; ?>" type="text" value="http://cdn.slim-css.com/slim-icons.<?php echo $versionCDN; ?>">
 										<span style="top:0; background:#3498DB;" class="icon-drive"></span>
 									</div>
 								</div>
