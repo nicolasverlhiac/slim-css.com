@@ -21,6 +21,8 @@
 						<li><span class="sticker improved">Amélioration</span> Structuration de l'information dans la documentation (h1 > h2 > h3)</li>
 						<li><span class="sticker fixed">Correction</span> Input avec la barre des "p", "g", "j" et "q" qui était coupé vers le bas</a></li>
 					</ul>
+
+					<hr>
 					
 					<h4 class="doc-taimay">Version 0.35 <small>(31 Octobre 2014)</small></h4>
 					<ul class="changelog">
@@ -30,6 +32,8 @@
 						<li><span class="sticker fixed">Correction</span> Documentation, erreur dans l'exemple de la partie <a href="navigation<?php echo $extension; ?>">navigation</a></li>
 
 					</ul>
+
+					<hr>
 					
 					<h4 class="doc-taimay">Version 0.34 <small>(30 Juin 2014)</small></h4>
 					<ul class="changelog">

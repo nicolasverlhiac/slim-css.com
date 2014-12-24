@@ -225,6 +225,9 @@ address {
 address {
   font-style: normal;
 }
+hr {
+  border-color: rgba(246, 246, 246, 0.5);
+}
 
 /* Description
    ========================================================================== */
