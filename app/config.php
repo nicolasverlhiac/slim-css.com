@@ -1,7 +1,7 @@
 <?php 
 // Informations sur Slim
-$version = "v0.36";
-$versionCDN = "0.36.min.css";
+$version = "v0.37";
+$versionCDN = "0.37.min.css";
 $extension = ".slim";
 
 

@@ -66,26 +66,57 @@
 
 					
 					<h3 id="bouton-style-couleurs" class="doc-slim">Style de boutons (couleurs)<a href="#bouton-style-couleurs" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
-					<p>Les boutons peuvent êtres décliné en plusieurs couleur. Pour effectuer le changement, il suffit d'appliquer la class <code>btn-xxx</code> en fonction de la couleur. Ces styles s'appliquent à tous les style de boutons à part les boutons lights.</p>
+					<p>Les boutons peuvent êtres décliné en plusieurs couleur. Pour effectuer le changement, il suffit d'appliquer la class <code>btn-xxx</code> ou <code>btn-xxx-3d</code> en fonction de la couleur et du type de bouton. Ces styles s'appliquent à tous les style de boutons à part les boutons lights.</p>
 					<div class="cols-row">
-						<div class="col-100">
-							<a class="btn btn-green">.btn-green</a>
-							<a class="btn btn-red">.btn-red</a>	
+
+						<!-- Boutons classics -->
+						<div class="col-50">
+							<div class="cols-row">
+								<div class="col-100">
+									<a class="btn btn-green">.btn-green</a>
+									<a class="btn btn-red">.btn-red</a>	
+								</div>
+							</div>
+							<div class="cols-row">
+								<div class="col-100">
+									<a class="btn btn-blue">.btn-blue</a>
+									<a class="btn btn-dark">.btn-dark</a>
+								</div>
+							</div>
+							<div class="cols-row">
+								<div class="col-100">
+									<a class="btn btn-disable">.btn-disable</a>	
+									<a class="btn btn-grey">.btn-grey</a>	
+								</div>
+							</div>
+						</div>
+						<!-- Boutons 3D -->
+						<div class="col-50">
+							<div class="cols-row">
+								<div class="col-100">
+									<a class="btn-3d btn-green-3d">.btn-green-3d</a>
+									<a class="btn-3d btn-red-3d">.btn-red-3d</a>	
+								</div>
+							</div>
+							<div class="cols-row">
+								<div class="col-100">
+									<a class="btn-3d btn-blue-3d">.btn-blue-3d</a>
+									<a class="btn-3d btn-dark-3d">.btn-dark-3d</a>
+								</div>
+							</div>
+							<div class="cols-row">
+								<div class="col-100">
+									<a class="btn-3d btn-disable-3d">.btn-disable-3d</a>	
+									<a class="btn-3d btn-grey-3d">.btn-grey-3d</a>	
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="cols-row">
-						<div class="col-100">
-							<a class="btn btn-blue">.btn-blue</a>
-							<a class="btn btn-dark">.btn-dark</a>
-						</div>
-					</div>
-					<div class="cols-row">
-						<div class="col-100">
-							<a class="btn btn-disable">.btn-disable</a>	
-							<a class="btn btn-grey">.btn-grey</a>	
-						</div>
-					</div>
-					<pre class="prettyprint">
+						<div class="col-50">
+							<pre class="prettyprint">
+&lt;!-- Boutons classics --&gt;
+
 &lt;a class="btn btn-green"&gt;.btn-green&lt;/a&gt;
 
 &lt;a class="btn btn-red"&gt;.btn-red&lt;/a&gt;
@@ -96,7 +127,25 @@
 
 &lt;a class="btn btn-disable"&gt;.btn-disable&lt;/a&gt;
 
-&lt;a class="btn btn-grey"&gt;.btn-grey&lt;/a&gt;</pre>
+&lt;a class="btn btn-grey"&gt;.btn-grey&lt;/a&gt;</pre>	
+						</div>
+						<div class="col-50">
+							<pre class="prettyprint">
+&lt;!-- Boutons 3D --&gt;
+
+&lt;a class="btn-3d btn-green-3d"&gt;.btn-green-3d&lt;/a&gt;
+
+&lt;a class="btn-3d btn-red-3d"&gt;.btn-red-3d&lt;/a&gt;
+
+&lt;a class="btn-3d btn-blue-3d"&gt;.btn-blue-3d&lt;/a&gt;
+
+&lt;a class="btn-3d btn-dark-3d"&gt;.btn-dark-3d&lt;/a&gt;
+
+&lt;a class="btn-3d btn-disable-3d"&gt;.btn-disable-3d&lt;/a&gt;
+
+&lt;a class="btn-3d btn-grey-3d"&gt;.btn-grey-3d&lt;/a&gt;</pre>	
+						</div>
+					</div>
 
 					<h3 id="bouton-juste-icone" class="doc-slim">Boutons avec icone seule <a href="#bouton-juste-icone" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<p>Ajouter des icones dans vos bouton à la place du texte avec <code>icon-xxxx</code> (<a href="icones<?php echo $extension; ?>">liste des icones disponibles</a>)</p>
