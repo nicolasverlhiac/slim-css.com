@@ -53,6 +53,9 @@
 
 &lt;a class="btn-lg btn-square"&gt;Bouton Carré&lt;/a&gt;
 &lt;a class="btn-lg btn-round"&gt;Bouton arrondi&lt;/a&gt;
+
+&lt;a class="btn-3d btn-square"&gt;Bouton Carré&lt;/a&gt;
+&lt;a class="btn-3d btn-round"&gt;Bouton arrondi&lt;/a&gt;
 </pre>
 
 					<h3 id="bouton-icone" class="doc-slim">Boutons avec icone <a href="#bouton-icone" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
