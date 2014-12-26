@@ -42,6 +42,8 @@
 						<li><span class="sticker fixed">Correction</span> <code>input</code>. Problème d'affichage du texte et des placeholder sous Firefox résolu.</li>
 					</ul>
 
+					<hr>
+
 					<h4 class="doc-taimay">Version 0.33 (Initial Public Commit)</h4>
 					<ul class="changelog">
 						<li><span class="sticker added">Ajout</span> Normalize.css v3</li>
