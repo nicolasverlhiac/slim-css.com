@@ -12,22 +12,22 @@
 					<div class="cols-row cols-split version-slim centered">
 						<div id="developpement" class="col-25 active">
 							<span class="icon-tools"></span>
-							Développement
+							<br>Développement
 							<div class="triangle"></div>
 						</div>
 						<div id="production" class="col-25">
 							<span class="icon-publish"></span>
-							Production
+							<br>Production
 							<div class="triangle"></div>
 						</div>
 						<div id="cdn" class="col-25">
 							<span class="icon-drive"></span>
-							CDN
+							<br>CDN
 							<div class="triangle"></div>
 						</div>
 						<div id="starter-pack" class="col-25 last">
 							<span class="icon-paperplane"></span>
-							Starter Pack
+							<br>Starter Pack
 							<div class="triangle"></div>
 						</div>
 					</div>
