@@ -418,38 +418,6 @@ span.improved {
   border-color: #3498DB transparent transparent 
 }
 
-
-.btn-blue-3d {
-  background: #3498db;
-  box-shadow:0px 4px 0px #2980b9 ;
-}
-.btn-blue-3d:hover,
-.btn-blue-3d:visited,
-.btn-blue-3d:focus {
-  background: #2980b9;
-  box-shadow:0px 2px 0px #1F5577;
-}
-.btn-blue-3d:active{
-  background: #2980b9;
-  box-shadow:0px 0px 0px;
-}
-
-.btn-dark-3d {
-  background: #34495E;
-  box-shadow:0px 4px 0px #2C3E50;
-}
-.btn-dark-3d:hover,
-.btn-dark-3d:visited,
-.btn-dark-3d:focus {
-  background: #2C3E50;
-  box-shadow:0px 2px 0px #000000;
-}
-.btn-dark-3d:active{
-  background: #2C3E50;
-  box-shadow:0px 0px 0px;
-}
-
-
 /* Media queries!
 -------------------------------------------------------------------------------*/
 
@@ -463,6 +431,14 @@ span.improved {
 @media only screen and (min-width: 768px) and (max-width: 1179px) {
   .menu-top-full .menu-top-none {
     display: none;
+  }
+
+  .version-slim span {
+    font-size: 50px;
+  }
+  
+  .version-slim .active .triangle{
+    top: 163px;
   }
 
   .menu-top-full .menu-top-block {
@@ -483,6 +459,10 @@ span.improved {
     margin: 10px 0 0 10px;
   }
 
+  .container {
+    width: 95%;
+  }
+
 }
 
 /* Tablet */
@@ -490,6 +470,9 @@ span.improved {
 
   .menu-top-full .menu-top-block {
       display: none;
+  }
+  .container {
+    width: 95%;
   }
 
 }
@@ -499,12 +482,21 @@ span.improved {
   .mobile {
     display: none; 
  }
+ .container {
+    width: 95%;
+  }
 }
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+  .container {
+    width: 95%;
+  }
  .no-mobile {
     display: none; 
  }
+ .menu-top-full .menu-top-none {
+    display: none;
+  }
 
  .mobile {
     display: block; 
