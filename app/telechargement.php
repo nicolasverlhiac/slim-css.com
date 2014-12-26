@@ -7,7 +7,11 @@
 					<?php require_once "sidebar-dl.php" ?>
 				</div>
 
-				<div class="col-80">
+				<div class="col-80 mobile">
+					<h2 class="soustitre"> Le framework Slim ne peut être téléchargé depuis une version mobile. Veuillez passer par une tablette ou un ordinateur.</h2>
+				</div>
+
+				<div class="col-80 no-mobile">
 
 					<div class="cols-row cols-split version-slim centered">
 						<div id="developpement" class="col-25 active">

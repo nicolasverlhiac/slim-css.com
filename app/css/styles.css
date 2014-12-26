@@ -52,6 +52,10 @@ body#accueil{
   background:       linear-gradient(left,#53C1AB,#5DABDB);
 }
 
+.download-page-mobile {
+    display: none;
+}
+
 header {
   padding: 0 10%;
   border-top: 1px solid #D2D3D5;

@@ -9,7 +9,7 @@
 
 				<div class="col-80">
 
-					<h1 class="titre-taimay">ChangeLog de Slim</h1>
+					<h1 class="titre-slim">ChangeLog de Slim</h1>
 					<p class="lead">Suivez l'évolution du Framework CSS Slim avec ce journal des modifications. Slim est un projet vivant, il évolue au fur et à mesure. Durant ce processus d'évolution, de nouvelles fonctionnalités vont voir le jour, et d'autres fonctionnalités vont disparaitre (vieillissement, nouvelles approches, améliorations). Pour ne rien manquer de ces changements, des ChangeLogs sont disponibles.</p>
 
 					<h4 class="doc-taimay">Version 0.36 <small>(9 Novembre 2014)</small></h4>
