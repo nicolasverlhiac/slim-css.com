@@ -79,7 +79,7 @@ include_once ("config.php");
 						        <li><a class="<?php if($f=='' || $f=='index.php' ) echo 'current';?>" href="index<?php echo $extension; ?>">Accueil</a></li>
 								<li><a class="<?php if($f=='a-propos.php' ) echo 'current'; ?>" href="presentation">Présentation</a></li>
 								<li><a class="<?php if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php' || $f=='notifications.php' || $f=='couleurs.php') echo 'current';?>" href="typographie<?php echo $extension; ?>">Documentation</a></li>
-								<li><a class="<?php if($f=='demonstration.php' ) echo 'current'; ?>" href="demonstration">Démonstration</a></li>
+								<li><a class="<?php if($f=='templates.php' ) echo 'current'; ?>" href="templates<?php echo $extension; ?>">Templates</a></li>
 								<!-- <li><a class="<?php if($f=='changelog.php' ) echo 'current';?>" href="changelog<?php echo $extension; ?>">Versions</a></li> -->
 								<li class="menu-top-none"><a class="btn-lg btn-round <?php if($f=='telechargement.php' ) echo 'currentdl';?>" href="telechargement<?php echo $extension; ?>">Télécharger SLIM</a></li>
 							</ul>
@@ -96,7 +96,7 @@ include_once ("config.php");
 						<span>
 							<?php 
 							if($f=='a-propos.php' ) echo 'Présentation';
-							if($f=='demonstration.php' ) echo 'Démonstration';
+							if($f=='templates.php' ) echo 'Templates';
 							if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php' || $f=='notifications.php' || $f=='couleurs.php') echo 'Documentation';
 							if($f=='telechargement.php' || $f=='changelog.php' ) echo 'Téléchargement';
 							?>

@@ -7,6 +7,7 @@ $extension = ".slim";
 
 // Référencement
 $pageInfos['a-propos.php']['titre']="Présentation de Slim CSS Framework";
+$pageInfos['templates.php']['titre']="Templates de site avec Slim CSS Framework";
 $pageInfos['boutons.php']['titre']="Boutons / Slim CSS Framework";
 $pageInfos['changelog.php']['titre']="ChangeLogs / Slim CSS Framework";
 $pageInfos['class-aide.php']['titre']="Class d'aide  / Slim CSS Framework";

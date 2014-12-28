@@ -63,7 +63,7 @@ include_once ("config.php");
 					        <li><a href="index<?php echo $extension; ?>">Accueil</a></li>
 							<li><a href="presentation">Présentation</a></li>
 							<li><a href="typographie<?php echo $extension; ?>">Documentation</a></li>
-							<li><a href="demonstration">Démonstration</a></li>
+							<li><a href="demonstration">Templates</a></li>
 						</ul>
 					</nav>
 				</div>
