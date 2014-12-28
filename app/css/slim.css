@@ -75,6 +75,13 @@ optgroup {font-weight: bold;}
 table {border-collapse: collapse;border-spacing: 0;}
 td,th {padding: 0;}
 
+/* Box model for all elements, when you work with paddings and borders */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /*
  * =/ Typographie
  * 
