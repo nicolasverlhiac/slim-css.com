@@ -12,6 +12,15 @@
 					<h1 class="titre-slim">ChangeLog de Slim</h1>
 					<p class="lead">Suivez l'évolution du Framework CSS Slim avec ce journal des modifications. Slim est un projet vivant, il évolue au fur et à mesure. Durant ce processus d'évolution, de nouvelles fonctionnalités vont voir le jour, et d'autres fonctionnalités vont disparaitre (vieillissement, nouvelles approches, améliorations). Pour ne rien manquer de ces changements, des ChangeLogs sont disponibles.</p>
 
+					<h4 class="doc-taimay">Version 0.37 <small>(26 Décembre 2014)</small></h4>
+					<ul class="changelog">
+						<li><span class="sticker added">Ajout</span> Couleurs pour les boutons 3D avec <a href="boutons<?php echo $extension; ?>#bouton-style-couleurs">les styles</a>.</li>
+						<li><span class="sticker improved">Amélioration</span> Structuration de l'information dans la documentation (h1 > h2 > h3)</li>
+						<li><span class="sticker fixed">Correction</span> Input avec la barre des "p", "g", "j" et "q" qui était coupé vers le bas</a></li>
+					</ul>
+
+					<hr>
+
 					<h4 class="doc-taimay">Version 0.36 <small>(9 Novembre 2014)</small></h4>
 					<ul class="changelog">
 						<li><span class="sticker added">Ajout</span> Documentation, catégorie <a href="notifications<?php echo $extension; ?>">Notifications</a>.</li>
@@ -28,7 +37,7 @@
 					<ul class="changelog">
 						<li><span class="sticker added">Ajout</span> Bouton en 3D avec <code>.btn-3d</code>.</li>
 						<li><span class="sticker added">Ajout</span> Select pour formulaire avec <code>.select</code>.</li>
-						<li><span class="sticker added">Ajout</span> Class d'aide pour gérer le resize des block.</li>
+						<li><span class="sticker added">Ajout</span> Class d'aide pour <a href="class-aide<?php echo $extension; ?>#resize">la gestion du "resize"</a> des blocks.</li>
 						<li><span class="sticker fixed">Correction</span> Documentation, erreur dans l'exemple de la partie <a href="navigation<?php echo $extension; ?>">navigation</a></li>
 
 					</ul>
