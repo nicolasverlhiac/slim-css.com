@@ -141,20 +141,20 @@
 							<form action="" method="POST">
 							   <div class="group-input">
 							        <label>
-							          <input type="radio"> oui
+							          <input type="radio" name="oui"> oui
 							        </label>
 
 							        <label>
-										<input type="radio"> non
+										<input type="radio" name="non"> non
 							        </label>
 							  </div>
 							  <div class="group-input">
 							        <label>
-							          <input type="checkbox"> Coche moi
+							          <input type="checkbox" name="oui"> Coche moi
 							        </label>
 
 							        <label>
-										<input type="checkbox"> Coche moi aussi
+										<input type="checkbox" name="non"> Coche moi aussi
 							        </label>
 							  </div>
 							</form>						
@@ -163,16 +163,16 @@
 							<p>Input de type radio & checkbox en ligne</p>
 							<form action="" method="POST">
 								<label>
-									<input type="radio"> oui
+									<input type="radio" name="oui"> oui
 								</label>
 								<label>
-									<input type="radio"> non
+									<input type="radio" name="non"> non
 								</label>
 								<label>
-									<input type="checkbox"> Coche moi
+									<input type="checkbox" name="oui"> Coche moi
 								</label>
 								<label>
-									<input type="checkbox"> Coche moi aussi
+									<input type="checkbox" name="non"> Coche moi aussi
 								</label>
 							</form>					
 						</div>
@@ -183,40 +183,40 @@
 
 	&lt;div class="group-input"&gt;
 		&lt;label&gt;
-			&lt;input type="radio"&gt; oui
+			&lt;input type="radio" name="oui"&gt; oui
 		&lt;/label&gt;
 
 		&lt;label&gt;
-			&lt;input type="radio"&gt; non
+			&lt;input type="radio" name="non"&gt; non
 		&lt;/label&gt;
 	&lt;/div&gt;
 
 	&lt;div class="group-input"&gt;
 		&lt;label&gt;
-			&lt;input type="checkbox"&gt; oui
+			&lt;input type="checkbox" name="oui"&gt; oui
 		&lt;/label&gt;
 
 		&lt;label&gt;
-			&lt;input type="checkbox"&gt; non
+			&lt;input type="checkbox" name="non"&gt; non
 		&lt;/label&gt;
 	&lt;/div&gt;
 
 	ou
 
 	&lt;label&gt;
-		&lt;input type="radio"&gt; oui
+		&lt;input type="radio" name="oui"&gt; oui
 	&lt;/label&gt;
 
 	&lt;label&gt;
-		&lt;input type="radio"&gt; oui
+		&lt;input type="radio" name="non"&gt; non
 	&lt;/label&gt;
 
 	&lt;label&gt;
-		&lt;input type="checkbox"&gt; oui
+		&lt;input type="checkbox" name="oui"&gt; oui
 	&lt;/label&gt;
 
 	&lt;label&gt;
-		&lt;input type="checkbox"&gt; oui
+		&lt;input type="checkbox" name="non"&gt; non
 	&lt;/label&gt;
 
 &lt;/form&gt;	
