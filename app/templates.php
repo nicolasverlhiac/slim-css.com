@@ -20,7 +20,7 @@
 										</ul>
 									</p>
 									<p>
-										<a href="dl-file.php" class="btn moyen btn-green upper">Télécharger <span class="icon-download"></span></a>
+										<a href="dl-file.php?url=https://raw.githubusercontent.com/nicolasverlhiac/Slim-CSS-Starter-Pack/master/index.html&nom=One-Page-Slim.html" class="btn moyen btn-green upper">Télécharger <span class="icon-download"></span></a>
 										<a href="templates/template-01<?php echo $extension; ?>" class="btn moyen btn-blue upper">Demo</a>
 									</p>	
 								</div>
