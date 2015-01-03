@@ -12,6 +12,18 @@
 					<h1 class="titre-slim">ChangeLog de Slim</h1>
 					<p class="lead">Suivez l'évolution du Framework CSS Slim avec ce journal des modifications. Slim est un projet vivant, il évolue au fur et à mesure. Durant ce processus d'évolution, de nouvelles fonctionnalités vont voir le jour, et d'autres fonctionnalités vont disparaitre (vieillissement, nouvelles approches, améliorations). Pour ne rien manquer de ces changements, des ChangeLogs sont disponibles.</p>
 
+					<h4 class="doc-taimay">Version 0.38 <small>(3 Janvier 2015)</small></h4>
+					<ul class="changelog">
+						<li><span class="sticker added">Ajout</span> Box sizing pour tous les éléments / <span class="sticker improved">Améliore</span> la gestion des border & padding.</li>
+						<li><span class="sticker added">Ajout</span> Formulaire sur une ligne  avec <a href="formulaires<?php echo $extension; ?>#fomulaire-en-ligne">input-line</a></li>
+						<li><span class="sticker added">Ajout</span> Class d'aide pour la gestion <a href="class-aide<?php echo $extension; ?>#">du texte </a></li>
+						<li><span class="sticker added">Ajout</span> Class d'aide pour <a href="class-aide<?php echo $extension; ?>#">le positionemment</a></li>
+						<li><span class="sticker added">Ajout</span> Arrondir les images/blocs avec <code>.rounded</code></li>
+						<li><span class="sticker fixed">Correction</span> Hover sur le bouton en 3D après avoir été visité</a></li>
+					</ul>
+
+					<hr>
+
 					<h4 class="doc-taimay">Version 0.37 <small>(26 Décembre 2014)</small></h4>
 					<ul class="changelog">
 						<li><span class="sticker added">Ajout</span> Couleurs pour les boutons 3D avec <a href="boutons<?php echo $extension; ?>#bouton-style-couleurs">les styles</a>.</li>
