@@ -134,6 +134,39 @@
 &lt;/form&gt;	
 					</pre>
 
+					<h3 id="fomulaire-en-ligne" class="doc-slim">Formulaire en ligne <a href="#fomulaire-en-ligne" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
+					<p>Création d'un formulaire sur une ligne avec <code>.input-line</code> sur le conteneur principal. Très pratique pour des blocs comme les newsletters.</p>
+					<div class="cols-row end">
+						<div class="col-80">
+							<form action="" method="POST">
+
+								<div class="cols-row input-line">
+									<div class="col-75">
+										<input id="mail" class="input width-100" placeholder="Entrez votre adresse e-mail" type="email" name="email">	
+									</div>
+									<div class="col-25">
+										<input type="submit" class="btn btn-blue width-100 upper" value="Inscription">
+									</div>
+								</div>
+
+							</form>
+						</div>
+					</div>
+					<pre class="prettyprint">
+&lt;form action="" method="POST"&gt;
+
+	&lt;div class="cols-row input-line"&gt;
+		&lt;div class="col-75"&gt;
+			&lt;input id="mail" class="input width-100" placeholder="Entrez votre adresse e-mail" type="email" name="email"&gt;	
+		&lt;/div&gt;
+		&lt;div class="col-25"&gt;
+			&lt;input type="submit" class="btn btn-blue width-100 upper" value="Inscription"&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/form&gt;
+					</pre>
+
 					<h3 id="input-radio-checkbox" class="doc-slim">Input avec Radio et Checkbox <a href="#input-radio-checkbox" class="doc-link icon-link" title="Ancre de navigation"></a></h3>
 					<div class="cols-row">
 						<div class="col-50">
