@@ -50,8 +50,8 @@ include_once ("config.php");
 		<link href="code/prettify.css" rel="stylesheet" type="text/css" media="screen" />
 		
 		<!-- Stylesheets -->
-		<link rel="stylesheet" href="css/slim-icons.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="css/slim.css" type="text/css" />
+		<link rel="stylesheet" href="css/slim-icons.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
 
 		<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script> -->
