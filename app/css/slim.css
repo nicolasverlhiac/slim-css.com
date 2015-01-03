@@ -1295,6 +1295,20 @@ input[type="radio"].input-error{
   border: none;
 }
 
+/* = Inputs Line
+-----------------------------------------------------------------------------*/
+
+.input-line .input{
+  font-size: 16px;
+  padding: 17px 20px;
+  height: 56px;
+}
+
+.input-line input[type="submit"]{
+  margin: 0;
+  padding: 
+}
+
 /* = Select
 -----------------------------------------------------------------------------*/
 
@@ -1679,6 +1693,12 @@ img {
   height: 100%;
 }
 
+/* Gestion des arrondies */
+
+.rounded {
+  border-radius: 100%;
+}
+
 /*
  * =/ Class d'Aide
  * 
@@ -1766,6 +1786,10 @@ img {
 }
 .bg-asbestos{
   background: #7f8c8d
+}
+
+.white {
+  color: white;
 }
 .turquoise {
   color: #1abc9c; 
@@ -1885,8 +1909,11 @@ img {
 .normal {
   font-weight: normal;
 }
+.semi-bold {
+  font-weight: 500;
+}
 .bold {
-  font-weight: bold;
+  font-weight: 700;
 }
 .italic {
   font-style: italic;
@@ -1900,6 +1927,22 @@ img {
 .upper {
   text-transform: uppercase;
 }
+
+/* = Postionnement Margin
+-----------------------------------------------------------------------------*/
+
+.margin-top-20 {margin-top: 20px}
+.margin-top-30 {margin-top: 30px}
+.margin-top-40 {margin-top: 40px}
+.margin-top-50 {margin-top: 50px}
+.margin-top-60 {margin-top: 60px}
+.margin-top-70 {margin-top: 70px}
+.margin-top-80 {margin-top: 80px}
+
+
+.padding-20 {padding: 20px 0;}
+.padding-30 {padding: 30px 0;}
+.padding-40 {padding: 40px 0;}
 
 /*
  * =/ Notifications
