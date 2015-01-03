@@ -38,12 +38,14 @@
 
 					<div class="cols-row" id="content-developpement">
 						<div class="col-100">
-							<h2 class="soustitre"> Slim pour le développement</h2>
+							<h2 class="soustitre">Slim pour le développement</h2>
 
 							<div class="cols-row">
 								<div class="col-40">
-									<a class="btn-3d btn-blue-3d ico-big">
-										<i class="icon-arrow-down3 ico-big"></i> <span>Slim <?php echo $version; ?> (non minifié)</span></a>	
+									<a class="btn-3d btn-blue-3d ico-big" href="https://github.com/nicolasverlhiac/Slim-CSS-Framework/archive/master.zip">
+										<i class="icon-arrow-down3 ico-big"></i> <span>Slim <?php echo $version; ?> (non minifié)</span>
+									</a>	
+									
 									<p class="width-80"><small>Récupérer la version des CSS et des sources de SLIM en version non minifié dans une archive .zip.</small></p>
 								</div>
 
@@ -61,8 +63,9 @@
 							<h2 class="soustitre"> Slim pour la production</h2>
 							<div class="cols-row">
 								<div class="col-40">
-									<a class="btn-3d btn-green ico-big">
-										<i class="icon-arrow-down3 ico-big"></i> <span>Slim <?php echo $version; ?> (minifié)</span></a>	
+									<a class="btn-3d btn-green ico-big" href="cdn/Slim-CSS-Framework.min.zip">
+										<i class="icon-arrow-down3 ico-big"></i> <span>Slim <?php echo $version; ?> (minifié)</span>
+									</a>
 									<p class="width-80"><small>Tous les fichiers sont minifiés et dé-commentés.</small></p>
 								</div>
 								<div class="col-60">
@@ -98,10 +101,10 @@
 							<h2 class="soustitre">Starter Pack de Slim</h2>
 							<div class="cols-row">
 								<div class="col-60">
-									<p>Ce pack contient tous les fichiers dont on a besoin sur un projet web "from scratch". En un click, votre projet est prêt à partir, avec les paramétrages et la mise en place en moins à faire.</p>
+									<p>Ce pack contient tous les fichiers dont on a besoin sur un projet web "from scratch". En un click, votre projet est prêt à partir, avec les paramétrages et la mise en place en moins à faire. Des <a href="templates<?php echo $extension; ?>">templates de bases</a> sont inclus dans le pack.</p>
 								</div>
 								<div class="col-40 text-right">
-									<a class="btn-3d btn-dark-3d ico-big">
+									<a class="btn-3d btn-dark-3d ico-big" href="https://github.com/nicolasverlhiac/Slim-CSS-Starter-Pack/archive/master.zip">
 										<i class="icon-arrow-down3 ico-big"></i> <span>Starter Pack SLIM</span>
 									</a>	
 								</div>
