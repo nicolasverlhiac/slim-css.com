@@ -60,10 +60,10 @@ include_once ("config.php");
 				<div class="col-100">
 					<nav id="nav-index" class="navbar full menu-top-full">
 						<ul>
-					        <li><a href="index<?php echo $extension; ?>">Accueil</a></li>
-							<li><a href="presentation">Présentation</a></li>
-							<li><a href="typographie<?php echo $extension; ?>">Documentation</a></li>
-							<li><a href="demonstration">Templates</a></li>
+					        <li><a href="index<?php echo $extension; ?>"><?php echo lang("menu_accueil"); ?></a></li>
+							<li><a href="presentation"><?php echo lang("menu_presentation"); ?></a></li>
+							<li><a href="typographie<?php echo $extension; ?>"><?php echo lang("menu_documentation"); ?></a></li>
+							<li><a href="templates<?php echo $extension; ?>"><?php echo lang("menu_template"); ?></a></li>
 						</ul>
 					</nav>
 				</div>

@@ -76,12 +76,11 @@ include_once ("config.php");
 					<div class="cols-row">
 						<nav id="nav-principal" class="navbar full menu-top-full">
 							<ul>
-						        <li><a class="<?php if($f=='' || $f=='index.php' ) echo 'current';?>" href="index<?php echo $extension; ?>">Accueil</a></li>
-								<li><a class="<?php if($f=='a-propos.php' ) echo 'current'; ?>" href="presentation">Présentation</a></li>
-								<li><a class="<?php if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php' || $f=='notifications.php' || $f=='couleurs.php') echo 'current';?>" href="typographie<?php echo $extension; ?>">Documentation</a></li>
-								<li><a class="<?php if($f=='templates.php' ) echo 'current'; ?>" href="templates<?php echo $extension; ?>">Templates</a></li>
-								<!-- <li><a class="<?php if($f=='changelog.php' ) echo 'current';?>" href="changelog<?php echo $extension; ?>">Versions</a></li> -->
-								<li class="menu-top-none"><a class="btn-lg btn-round <?php if($f=='telechargement.php' ) echo 'currentdl';?>" href="telechargement<?php echo $extension; ?>">Télécharger SLIM</a></li>
+						        <li><a class="<?php if($f=='' || $f=='index.php' ) echo 'current';?>" href="index<?php echo $extension; ?>"><?php echo lang("menu_accueil"); ?></a></li>
+								<li><a class="<?php if($f=='a-propos.php' ) echo 'current'; ?>" href="presentation"><?php echo lang("menu_presentation"); ?></a></li>
+								<li><a class="<?php if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php' || $f=='notifications.php' || $f=='couleurs.php') echo 'current';?>" href="typographie<?php echo $extension; ?>"><?php echo lang("menu_documentation"); ?></a></li>
+								<li><a class="<?php if($f=='templates.php' ) echo 'current'; ?>" href="templates<?php echo $extension; ?>"><?php echo lang("menu_template"); ?></a></li>
+								<li class="menu-top-none"><a class="btn-lg btn-round <?php if($f=='telechargement.php' ) echo 'currentdl';?>" href="telechargement<?php echo $extension; ?>"><?php echo lang("menu_telechargement"); ?></a></li>
 							</ul>
 						</nav>
 					</div>
@@ -108,6 +107,7 @@ include_once ("config.php");
 						<?php 
 						if($f=='a-propos.php' ) echo 'Slim est un Framework CSS Open Source. Sa philosophie, offrir un framework léger et modulable tout en restant complet dans sa structure.';
 						if($f=='typographie.php' || $f=='tableaux.php' || $f=='grille.php' || $f=='navigation.php' || $f=='medias.php' || $f=='boutons.php' || $f=='formulaires.php' || $f=='class-aide.php' || $f=='icones.php' || $f=='notifications.php' || $f=='couleurs.php' ) echo 'Découvrez le fonctionnement du framework Slim à travers la documenation. Tous les composants y sont abordés, et illustrés des mises en situation.';
+						if($f=='templates.php' ) echo 'Des templates réalisés uniquement avec Slim CSS sont disponibles en téléchargement libre pour illustrer des mises en situations concrètes.';
 						if($f=='telechargement.php' || $f=='changelog.php' ) echo 'Le framework Slim vous est offert sous différente formes. Minifié pour la production, commenté pour le développement et "Starter Pack".';
 						?>
 					</h2>

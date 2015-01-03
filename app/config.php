@@ -27,4 +27,29 @@ $templateCssIcone = "../css/slim-icons.css";
 $templateCss = "../css/slim.css";
 $pageInfos['template-01.php']['titre']="Templates / Slim CSS Framework";
 
+// Gestion des langues
+$LANG = array(); //initialisation du tableau des langues
+$lang = "fr"; //@TODO : dynamique
+
+include("lang/" . $lang . "/main.lang.php");
+
+/**
+ * Fonction pour la gestion de la langue du site
+ *  
+ * @param string $key - Chaine à traduire
+ * 
+ * @return la bonne traduction dans la bonne langue
+ *         si non - le debug retourne la clef sans la traduction
+ **/
+function lang($key) {
+  global $LANG, $deblang;
+  if (array_key_exists($key, $LANG)){ 
+  	return $LANG[$key];
+  } else {
+    $deblang[] = $key;
+    return "__" . $key . "__";
+  }
+}
+
+
 ?>
