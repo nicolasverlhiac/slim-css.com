@@ -1578,8 +1578,7 @@ a.icons {
   box-shadow:0px 4px 0px #27AE60;
 }
 .btn-green-3d:hover,
-.btn-green-3d:visited,
-.btn-green-3d:focus{
+.btn-green-3d:visited:hover{
   background: #27AE60;
   box-shadow:0px 2px 0px #16703B;
 }
@@ -1593,8 +1592,7 @@ a.icons {
   box-shadow:0px 4px 0px #C0392B;
 }
 .btn-red-3d:hover,
-.btn-red-3d:visited,
-.btn-red-3d:focus {
+.btn-red-3d:visited:hover{
   background: #C0392B;
   box-shadow:0px 2px 0px #77241C;
 }
@@ -1608,8 +1606,7 @@ a.icons {
   box-shadow:0px 4px 0px #2980b9 ;
 }
 .btn-blue-3d:hover,
-.btn-blue-3d:visited,
-.btn-blue-3d:focus {
+.btn-blue-3d:visited:hover {
   background: #2980b9;
   box-shadow:0px 2px 0px #1F5577;
 }
@@ -1623,8 +1620,7 @@ a.icons {
   box-shadow:0px 4px 0px #2C3E50;
 }
 .btn-dark-3d:hover,
-.btn-dark-3d:visited,
-.btn-dark-3d:focus {
+.btn-dark-3d:visited:hover{
   background: #2C3E50;
   box-shadow:0px 2px 0px #000000;
 }
@@ -1639,8 +1635,7 @@ a.icons {
   box-shadow:0px 4px 0px #bdc3c7;
 }
 .btn-disable-3d:hover,
-.btn-disable-3d:visited,
-.btn-disable-3d:focus {
+.btn-disable-3d:visited:hover{
   background: #bdc3c7;
   box-shadow:0px 2px 0px #74777A;
 }
@@ -1654,8 +1649,7 @@ a.icons {
   box-shadow:0px 4px 0px #7f8c8d;
 }
 .btn-grey-3d:hover,
-.btn-grey-3d:visited,
-.btn-grey-3d:focus {
+.btn-grey-3d:visited:hover{
   background: #7f8c8d;
   box-shadow:0px 2px 0px #454C4C;
 }
