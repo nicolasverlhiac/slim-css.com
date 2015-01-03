@@ -1687,7 +1687,7 @@ img {
   height: 100%;
 }
 
-/* Gestion des arrondies */
+/* Gestion des blocs arrondies */
 
 .rounded {
   border-radius: 100%;
@@ -1900,6 +1900,9 @@ img {
 .begin {
   margin-top: 0 !important;
 }
+.light {
+  font-weight: 200;
+}
 .normal {
   font-weight: normal;
 }
@@ -1925,6 +1928,7 @@ img {
 /* = Postionnement Margin
 -----------------------------------------------------------------------------*/
 
+.margin-top-10 {margin-top: 10px}
 .margin-top-20 {margin-top: 20px}
 .margin-top-30 {margin-top: 30px}
 .margin-top-40 {margin-top: 40px}
@@ -1932,11 +1936,17 @@ img {
 .margin-top-60 {margin-top: 60px}
 .margin-top-70 {margin-top: 70px}
 .margin-top-80 {margin-top: 80px}
+.margin-top-90 {margin-top: 90px}
+.margin-top-100 {margin-top: 100px}
 
+/* = Postionnement Margin
+-----------------------------------------------------------------------------*/
 
+.padding-10 {padding: 10px 0;}
 .padding-20 {padding: 20px 0;}
 .padding-30 {padding: 30px 0;}
 .padding-40 {padding: 40px 0;}
+.padding-50 {padding: 50px 0;}
 
 /*
  * =/ Notifications

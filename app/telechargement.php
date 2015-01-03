@@ -45,7 +45,7 @@
 									<a class="btn-3d btn-blue-3d ico-big" href="https://github.com/nicolasverlhiac/Slim-CSS-Framework/archive/master.zip">
 										<i class="icon-arrow-down3 ico-big"></i> <span>Slim <?php echo $version; ?> (non minifié)</span>
 									</a>	
-									
+
 									<p class="width-80"><small>Récupérer la version des CSS et des sources de SLIM en version non minifié dans une archive .zip.</small></p>
 								</div>
 
@@ -60,7 +60,7 @@
 
 					<div class="cols-row hide" id="content-production">
 						<div class="col-100">
-							<h2 class="soustitre"> Slim pour la production</h2>
+							<h2 class="soustitre">Slim pour la production</h2>
 							<div class="cols-row">
 								<div class="col-40">
 									<a class="btn-3d btn-green ico-big" href="cdn/Slim-CSS-Framework.min.zip">
