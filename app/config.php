@@ -21,4 +21,10 @@ $pageInfos['telechargement.php']['titre']="Téléchargement des versions de Slim
 $pageInfos['typographie.php']['titre']="Typographie / Slim CSS Framework";
 $pageInfos['notifications.php']['titre']="Notifications / Slim CSS Framework";
 $pageInfos['couleurs.php']['titre']="Couleurs additionnelles / Slim CSS Framework";
+
+// Templates
+$templateCssIcone = "../css/slim-icons.css";
+$templateCss = "../css/slim.css";
+$pageInfos['template-01.php']['titre']="Templates / Slim CSS Framework";
+
 ?>
