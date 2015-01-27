@@ -1,7 +1,7 @@
 <?php 
 // Informations sur Slim
-$version = "v0.37";
-$versionCDN = "0.37.min.css";
+$version = "v0.38";
+$versionCDN = "0.38.min.css";
 $extension = ".slim";
 
 
@@ -25,7 +25,7 @@ $pageInfos['couleurs.php']['titre']="Couleurs additionnelles / Slim CSS Framewor
 // Templates
 $templateCssIcone = "../css/slim-icons.css";
 $templateCss = "../css/slim.css";
-$pageInfos['template-01.php']['titre']="Templates / Slim CSS Framework";
+$pageInfos['template-01.php']['titre']="Template One Page complète / Slim CSS Framework";
 
 // Gestion des langues
 $LANG = array(); //initialisation du tableau des langues
