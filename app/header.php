@@ -52,10 +52,10 @@ include_once ("config.php");
 		
 		<!-- Stylesheets -->
 		<link href="code/prettify.css" rel="stylesheet" type="text/css" media="screen" />
-		<link rel="stylesheet" href="http://cdn.slim-css.com/slim-icons.0.38.min.css" type="text/css" />
-		<link rel="stylesheet" href="http://cdn.slim-css.com/slim.0.38.min.css" type="text/css" />
-		<!-- <link rel="stylesheet" href="css/slim.css" type="text/css" />
-		<link rel="stylesheet" href="css/slim-icons.css" type="text/css" media="screen" /> -->
+		<!-- <link rel="stylesheet" href="http://cdn.slim-css.com/slim-icons.0.38.min.css" type="text/css" />
+		<link rel="stylesheet" href="http://cdn.slim-css.com/slim.0.38.min.css" type="text/css" /> -->
+		<link rel="stylesheet" href="css/slim.css" type="text/css" />
+		<link rel="stylesheet" href="css/slim-icons.css" type="text/css" /> 
 		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
 
 		<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script> -->

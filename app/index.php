@@ -25,7 +25,10 @@ include_once ("config.php");
 		<meta property="og:image" content="http://slim-css.com/img/cover-slim.png"/> 
 		<meta property="og:site_name" content="Slim HTML/CSS"/> 
 		<meta property="og:description" content="Slim HTML/CSS est un framework responsive, léger, et prêt à l'emploi."/>
-		<meta name="viewport" content="initial-scale=1,minimum-scale=1,width=device-width">
+		<meta name="viewport" content="initial-scale=1,minimum-scale=1,user-scalable=no,width=device-width">
+        <meta name="apple-mobile-web-app-capable" content="yes" /><!-- Hiding Safari User Interface Components -->
+        <meta name="apple-touch-fullscreen" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><!-- Changing the Status Bar Appearance -->
 		
 		<!-- Icones pour le site --> 
 		<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
