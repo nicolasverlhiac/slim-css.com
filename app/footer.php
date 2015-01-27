@@ -12,6 +12,6 @@
 		</div>
 	</div>
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/main.js"></script>
+		<script src="js/jquery.min.js" async></script>
+		<script src="js/main.js" async></script>
 		<?php include_once("analyticstracking.php") ?>

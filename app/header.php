@@ -50,7 +50,7 @@ include_once ("config.php");
 		<meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
 		<meta name="application-name" content="Slim CSS Framework">
 
-		<script src="code/prettify.js"> </script> 
+		<script src="code/prettify.js" async> </script> 
 		<link href="code/prettify.css" rel="stylesheet" type="text/css" media="screen" />
 		
 		<!-- Stylesheets -->
