@@ -4,12 +4,13 @@
 				<div class="col-100">
 					
 					<div class="cols-row">
-						<div class="col-60">
-							<p class="lead">Slim est née d'un besoin simple : Un Framework CSS très léger et modulable mais qui comporterait tous les outils nécessaires pour faire des sites web rapidement. 
+						<div class="col-60">				
+
+<p>Slim est un Framework CSS très léger et modulable, il comporte tous les outils nécessaires pour réaliser tous type de projet web rapidement.
 								Bien évidement, il devait être <strong>responsive</strong>, et gérer l'<strong>interopérabilité</strong> entre les navigateurs récents et vieux. Et surtout, facile à prendre en main.
 								Voilà comment le framework CSS Slim se retrouve maintenant entre vos mains. </p>
 
-							<p class="lead">Slim est un projet vivant et Open Source, qui évolue au fur et à mesure. 
+							<p class="">Slim est un projet vivant et Open Source, qui évolue au fur et à mesure. 
 								Actuellement, il possède un certain nombre de fonctionnalités qui permettent de commencer un projet web stable. 
 								Dans un but constant d'améliorartion du framework, suivez son évolution grâce aux <a href="changelog<?php echo $extension; ?>">ChangeLogs</a> (journal des modifications).</p>
 						</div>
