@@ -72,7 +72,7 @@ include_once ("config.php");
 			<div class="cols-row end">
 				<div class="col-30 logo-mobil">
 					<a href="index<?php echo $extension; ?>">
-					<img src="img/logo-slim.png">
+					<img src="img/logo-slim.png" alt="Logo de Slim css framework" width="166" height="60">
 					</a>
 				</div>
 
