@@ -117,6 +117,8 @@
 		</div>
 
 		<footer>
+			<script src="js/jquery.min.js" async></script>
+			<script src="js/main.min.js" async></script>
 			<?php require_once "footer.php" ?>
 		</footer>
 
