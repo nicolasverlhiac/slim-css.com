@@ -29,6 +29,7 @@ include_once ("config.php");
         <meta name="apple-mobile-web-app-capable" content="yes" /><!-- Hiding Safari User Interface Components -->
         <meta name="apple-touch-fullscreen" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><!-- Changing the Status Bar Appearance -->
+        <link rel="apple-touch-startup-image" href="img/startup.png"><!-- Start Image-->
 
 
 		<!-- Icones pour le site --> 
