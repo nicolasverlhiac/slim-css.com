@@ -26,18 +26,15 @@
 								<li><strong>Créateur :</strong> Nicolas VERLHIAC</li>
 								<li><strong>Responsable publication :</strong> Nicolas VERLHIAC &ndash; nicolas.verlhiac[at]gmail.com. Le responsable publication est une personne physique ou une personne morale.</li>
 								<li><strong>Webmaster :</strong> Nicolas VERLHIAC &ndash; nicolas.verlhiac[at]gmail.com</li>
-								<li><strong>Location Serveurs :</strong> ONLINE SAS &ndash; BP 438 &ndash; 75366 Paris CEDEX 08</li>
+								<li><strong>Hébergement :</strong> TRANSFILE NETWORKS &ndash; 31000 Toulouse &ndash; FRANCE</li>
 
 							</ul>
 
 							<h3>Droits et reproduction</h3>
 
-							<p>La charte graphique du site (illustrations, typographie, emplacements, dimensions des éléments, etc.), sont soumises aux droits d’auteur et protégés par la loi européenne.
-							</p>
-							<p>
-							Les textes sont la propriété de leurs auteurs. Les images et illustrations utilisées sont réalisées par Nicolas VERLHIAC ou téléchargées sur des banques d’images libres de droit et gratuite (Crédits présents en dessous des images en question).</p>
-
-							<p>Il est interdit de reproduire, représenter, transférer, distribuer, ou d’enregistrer tout ou partie de ces éléments, sous quelque forme que ce soit, sans mentionner slim-css.com en tant que source de l’élément, dans la présentation de votre contenu et dans la taille originale de la source.</p>
+							<p>La charte graphique du site (illustrations, typographie, emplacements, dimensions des éléments, etc.), sont soumises aux droits d’auteur et protégés par la loi européenne.</p>
+							
+							<p>Les textes sont la propriété de leurs auteurs. Les images et illustrations utilisées sont réalisées par Nicolas VERLHIAC.</p>
 
 							<h3>Données personnelles</h3>
 
