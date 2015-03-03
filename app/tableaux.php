@@ -66,16 +66,16 @@
 			&lt;td&gt;45 min&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
-			&lt;/td&gt;Cake Nature&lt;/td&gt;
-			&lt;/td&gt;Facile&lt;/td&gt;
-			&lt;/td&gt;15 min&lt;/td&gt;
+			&lt;td&gt;Cake Nature&lt;/td&gt;
+			&lt;td&gt;Facile&lt;/td&gt;
+			&lt;td&gt;15 min&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 	&lt;tfoot&gt;
 		&lt;tr&gt;
-			&lt;/td&gt;...&lt;/td&gt;
-			&lt;/td&gt;...&lt;/td&gt;
-			&lt;/td&gt;...&lt;/td&gt;
+			&lt;td&gt;...&lt;/td&gt;
+			&lt;td&gt;...&lt;/td&gt;
+			&lt;td&gt;...&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tfoot&gt;
 &lt;/table&gt;</pre>
@@ -112,14 +112,14 @@
 &lt;table class="width-100"&gt;	
 	&lt;thead&gt;
 		&lt;tr&gt;
-			&lt;/th&gt;Gateaux&lt;/th&gt;
-			&lt;/th&gt;Dificulté&lt;/th&gt;
-			&lt;/th&gt;Temps de fabrication&lt;/th&gt;
+			&lt;th&gt;Gateaux&lt;/th&gt;
+			&lt;th&gt;Dificulté&lt;/th&gt;
+			&lt;th&gt;Temps de fabrication&lt;/th&gt;
 		&lt;/tr&gt;
 	&lt;/thead&gt;
 	&lt;tbody&gt;
 		&lt;tr&gt;
-			&lt;/td&gt;...&lt;/td&gt;
+			&lt;td&gt;...&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;</pre>
