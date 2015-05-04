@@ -1,7 +1,11 @@
 <?php 
+
+//  NO REPORT
+// error_reporting(E_ALL ^ E_NOTICE);
+
 // Informations sur Slim
-$version = "v0.38";
-$versionCDN = "0.38.min.css";
+$version = "v0.39";
+$versionCDN = "0.39.min.css";
 $extension = ".slim";
 
 
@@ -27,11 +31,32 @@ $templateCssIcone = "../css/slim-icons.css";
 $templateCss = "../css/slim.css";
 $pageInfos['template-01.php']['titre']="Template One Page complète / Slim CSS Framework";
 
-// Gestion des langues
-$LANG = array(); //initialisation du tableau des langues
-$lang = "fr"; //@TODO : dynamique
 
-include("lang/" . $lang . "/main.lang.php");
+// Gestion des langues
+$LANG = array();
+
+$langues = array(
+        "fr" => "Français",
+			  "en" => "English"
+        ); //initialisation du tableau des langues
+$defaultLanguage = "fr";
+
+session_name('slimLang');
+session_start();
+
+if (isset($_SESSION["slimLang"])) {
+  $lang = $_SESSION["slimLang"];
+} else {
+  $lang ="";
+}
+
+if (isset($_REQUEST["setLang"]) && file_exists("lang/" . $_REQUEST["setLang"] . ".php")) {
+  $lang = $_SESSION["slimLang"] = $_REQUEST["setLang"];
+}
+if (!$lang) $lang = $defaultLanguage;
+
+include("lang/" . $lang . ".php");
+
 
 /**
  * Fonction pour la gestion de la langue du site
@@ -50,6 +75,5 @@ function lang($key) {
     return "__" . $key . "__";
   }
 }
-
 
 ?>

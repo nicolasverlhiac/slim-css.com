@@ -126,6 +126,22 @@ include_once ("config.php");
 
 		<div class="container">
 
+			
+			      <ul class='nav navbar-nav navbar-right'>
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Options <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li class="dropdown-header">Languages</li>
+			            <?php
+			              foreach ($langues as $lkey => $ldescr) {
+			                echo "<li><a href='?setLang=$lkey'>$ldescr</a></li>\n";
+			              }
+			            ?>
+			          </ul>
+			        </li>
+			      </ul>
+			
+
 
 			<div class="cols-row">
 
